@@ -12,9 +12,52 @@
   <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
 </head>
 <body>
+  <!-- tabbar navigation -->
+  <nav class="tabbar">
+    <a href="#home" onclick="showPage('home')">Home</a>
+    <a href="#family" onclick="showPage('family')">My family</a>
+    <a href="#teachers" onclick="showPage('teachers')">Teachers</a>
+    <a href="#contact" onclick="showPage('contact')">Contact</a>
+  </nav>
 
+  <!-- pages -->
+  <!-- home page -->
+  <section id="home" class="page">
+    <header class="topbar">
+      <h2>Home</h2>
+    </header>
+    <p>My Single Page Web App Template</p>
+  </section>
 
- <!-- SCRIPT -->
-  <script type="text/javascript" src="js/main.js"></script>
+  <!-- about page -->
+  <section id="family" class="page">
+    <header class="topbar">
+      <h2>My family</h2>
+    </header>
+    <section id="my-family"></section>
+  </section>
+
+  <!-- teachers page -->
+  <section id="teachers" class="page">
+    <header class="topbar">
+      <h2>Teachers</h2>
+    </header>
+    <section id="my-teachers"></section>
+  </section>
+
+  <!-- contact page -->
+  <section id="contact" class="page">
+    <header class="topbar">
+      <h2>Contact</h2>
+    </header>
+    <p>So, contact info?</p>
+    <p><a href="mailto:race@eaaa.dk">race@eaaa.dk</a></p>
+    <a href="http://cederdorff.com" target="_blank">
+      <img src="img/logo.png" alt="Cederdorff logo" class="logo">
+    </a>
+  </section>
+
+  <!-- main js file -->
+  <script src="js/main.js"></script>
 </body>
 </html>
