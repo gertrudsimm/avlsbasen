@@ -1,4 +1,12 @@
 
+
+/*-----------baggrund------------*/
+.page, .page__content, .page--material, .page--material__content {
+  background-color: crimson !important;
+  background: crimson !important;
+
+}
+
 /*-----------Menu icon------------*/
 
 #profilikon {
@@ -9,8 +17,8 @@
   }
 
 
-/*TOOLBAR*/
+/*-----------toolbar------------*/
 
-#toolbar{
-background-color: rgb(186, 228, 213, 0.5);
+.toolbar{
+background-color: rgb(186, 228, 213, 0.5) !important;
 }
