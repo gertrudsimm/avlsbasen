@@ -53,7 +53,13 @@ background-color: rgb(186, 228, 213, 0.5) !important;
 }
 
 
-/**search bar**/
+/**-------search bar & filter knap-------**/
 
-#searchbar {
+.search-input {
+    width: 280px;
+}
+#filterbutton {
+    margin: 6px 0
     
+}
+
