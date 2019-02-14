@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Avlsbasen</title>
+  <title>Document</title>
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
@@ -12,25 +12,23 @@
   <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
 </head>
 <body>
+  <!-- tabbar navigation -->
+  <nav class="tabbar">
+    <a href="#home" onclick="showPage('home')">Home</a>
+    <a href="#family" onclick="showPage('family')">My family</a>
+    <a href="#teachers" onclick="showPage('teachers')">Teachers</a>
+    <a href="#contact" onclick="showPage('contact')">Contact</a>
+  </nav>
 
-  <ons-splitter>
-    <ons-splitter-side id="menu" side="left" width="220px" collapse swipeable>
-      <ons-page>
-        <ons-list>
-          <ons-list-item onclick="fn.load('home.html')" tappable>
-            Home
-          </ons-list-item>
-          <ons-list-item onclick="fn.load('settings.html')" tappable>
-            Settings
-          </ons-list-item>
-          <ons-list-item onclick="fn.load('about.html')" tappable>
-            About
-          </ons-list-item>
-        </ons-list>
-      </ons-page>
-    </ons-splitter-side>
-    <ons-splitter-content id="content" page="home.html"></ons-splitter-content>
-  </ons-splitter>
+  <!-- pages -->
+  <!-- home page -->
+  <section id="home" class="page">
+    <header class="topbar">
+      <h2>Home</h2>
+    </header>
+    <p>My Single Page Web App Template</p>
+  </section>
+
 
   <template id="home.html">
     <ons-page>
@@ -49,35 +47,34 @@
     </ons-page>
   </template>
 
-  <template id="settings.html">
-    <ons-page>
-      <ons-toolbar>
-        <div class="left">
-          <ons-toolbar-button onclick="fn.open()">
-            <ons-icon icon="md-menu"></ons-icon>
-          </ons-toolbar-button>
-        </div>
-        <div class="center">
-          Settings
-        </div>
-      </ons-toolbar>
-    </ons-page>
-  </template>
+  <!-- about page -->
+  <section id="family" class="page">
+    <header class="topbar">
+      <h2>My family</h2>
+    </header>
+    <section id="my-family"></section>
+  </section>
 
-  <template id="about.html">
-    <ons-page>
-      <ons-toolbar>
-        <div class="left">
-          <ons-toolbar-button onclick="fn.open()">
-            <ons-icon icon="md-menu"></ons-icon>
-          </ons-toolbar-button>
-        </div>
-        <div class="center">
-          About
-        </div>
-      </ons-toolbar>
-    </ons-page>
-  </template>
+
+  <!-- teachers page -->
+  <section id="teachers" class="page">
+    <header class="topbar">
+      <h2>Teachers</h2>
+    </header>
+    <section id="my-teachers"></section>
+  </section>
+
+  <!-- contact page -->
+  <section id="contact" class="page">
+    <header class="topbar">
+      <h2>Contact</h2>
+    </header>
+    <p>So, contact info?</p>
+    <p><a href="mailto:race@eaaa.dk">race@eaaa.dk</a></p>
+    <a href="http://cederdorff.com" target="_blank">
+      <img src="img/logo.png" alt="Cederdorff logo" class="logo">
+    </a>
+  </section>
 
   <!-- main js file -->
   <script src="js/main.js"></script>
