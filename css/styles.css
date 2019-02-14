@@ -6,8 +6,11 @@
     padding-top: 5px;
     color: white;
     position: right;
+  }
 
 
 /*TOOLBAR*/
-#toolbar {
+
+#toolbar{
 background-color: rgb(186, 228, 213, 0.5);
+}
