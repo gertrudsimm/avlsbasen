@@ -60,11 +60,9 @@
 
 .search-input {
     width: 280px;
+    position: inherit;
 }
 
-#filterbutton {
-    position: inherit;
-    padding-left: 10px;
-    margin-top: 6px;
-
+#buttonfilter {
+    
 }
