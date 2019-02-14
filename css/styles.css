@@ -1,9 +1,11 @@
-
- /*---Gertrud arbejder her!!!!!!!!!---*/
+/*---Gertrud arbejder her!!!!!!!!!---*/
 /*-----------baggrund------------*/
-.page, .page__content, .page--material, .page--material__content {
-  background-color: crimson !important;
-  background: crimson !important;
+.page,
+.page__content,
+.page--material,
+.page--material__content {
+    background-color: crimson !important;
+    background: crimson !important;
 
 }
 
@@ -15,7 +17,7 @@
     padding-top: 5px;
     color: white;
     position: right;
-  }
+}
 
 #menubars {
     color: white;
@@ -25,31 +27,32 @@
 
 /*-----------toolbar------------*/
 
-.toolbar{
-background-color: rgb(186, 228, 213, 0.5) !important;
+.toolbar {
+    background-color: rgb(186, 228, 213, 0.5) !important;
 }
 
 
 /*---------- shit menu bar slider -------------*/
 .center {
-	color: aqua; 
-	text-decoration-line: underline;
-	text-align: center;
-	height: 70px;
-	
+    color: aqua;
+    text-decoration-line: underline;
+    text-align: center;
+    height: 70px;
+
 }
+
 .page__background {
-	width: 0%;
-	
-}
-
-.page__content {
-
+    width: 0%;
 
 }
 
-.list-header, .list-item--expandable, .list-item__center, .list-item__right {
-	background-size: 100% 10px;
+.page__content {}
+
+.list-header,
+.list-item--expandable,
+.list-item__center,
+.list-item__right {
+    background-size: 100% 10px;
 }
 
 
@@ -58,8 +61,10 @@ background-color: rgb(186, 228, 213, 0.5) !important;
 .search-input {
     width: 280px;
 }
-#filterbutton {
-    margin: 6px 0
-    
-}
 
+#filterbutton {
+    position: inherit;
+    padding-left: 10px;
+    margin-top: 6px;
+
+}
