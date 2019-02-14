@@ -1,110 +1,113 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
-  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
-  <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
 </head>
 
 <body>
-  <ons-splitter>
-  <ons-splitter-side id="menu" side="left" width="220px" collapse swipeable>
-    <ons-page>
-      <ons-list>
-        <ons-list-item onclick="fn.load('home.html')" tappable>
-          Home
-        </ons-list-item>
-        <ons-list-item onclick="fn.load('settings.html')" tappable>
-          Settings
-        </ons-list-item>
-        <ons-list-item onclick="fn.load('about.html')" tappable>
-          About
-        </ons-list-item>
-      </ons-list>
-    </ons-page>
-  </ons-splitter-side>
-  <ons-splitter-content id="content" page="home.html"></ons-splitter-content>
-</ons-splitter>
+    <ons-splitter>
+        <ons-splitter-side id="menu" side="left" width="220px" collapse swipeable>
+            <ons-page>
+                <ons-list>
+                    <ons-list-item onclick="fn.load('home.html')" tappable>
+                        Home
+                    </ons-list-item>
+                    <ons-list-item onclick="fn.load('settings.html')" tappable>
+                        Settings
+                    </ons-list-item>
+                    <ons-list-item onclick="fn.load('about.html')" tappable>
+                        About
+                    </ons-list-item>
+                    <ons-list-item onclick="fn.load('profil.html')" tappable>
+                        Profil
+                    </ons-list-item>
+                </ons-list>
+            </ons-page>
+        </ons-splitter-side>
+        <ons-splitter-content id="content" page="home.html"></ons-splitter-content>
+    </ons-splitter>
 
-<template id="home.html">
-  <ons-page>
-    <ons-toolbar class="toolbar">
-      <div class="left">
-        <ons-toolbar-button onclick="fn.open()">
-          <ons-icon icon="md-menu"></ons-icon>
-        </ons-toolbar-button>
-      </div>
-      <div class="center">
-        Main
-      </div>
-      <div class="toolbar__right">
-          <a href="about.html"><i id="profilikon" class="fas fa-user-circle fa-2x"></i></a>
-      </div>
-    </ons-toolbar>
-  </ons-page>
-</template>
+    <template id="home.html">
+        <ons-page>
+            <ons-toolbar class="toolbar">
+                <div class="left">
+                    <ons-toolbar-button onclick="fn.open()">
+                        <ons-icon icon="md-menu"></ons-icon>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">
+                    Main
+                </div>
+                <div class="toolbar__right">
+                <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                </div>
+            </ons-toolbar>
+        </ons-page>
+    </template>
 
-<template id="settings.html">
-  <ons-page>
-    <ons-toolbar class="toolbar">
-      <div class="left">
-        <ons-toolbar-button onclick="fn.open()">
-          <ons-icon icon="md-menu"></ons-icon>
-        </ons-toolbar-button>
-      </div>
-      <div class="center">
-        Settings
-      </div>
-      <div class="toolbar__right">
-          <a href="profil.html"><i id="profilikon" class="fas fa-user-circle fa-2x"></i></a>
-      </div>
-    </ons-toolbar>
-  </ons-page>
-</template>
+    <template id="settings.html">
+        <ons-page>
+            <ons-toolbar class="toolbar">
+                <div class="left">
+                    <ons-toolbar-button onclick="fn.open()">
+                        <ons-icon icon="md-menu"></ons-icon>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">
+                    Settings
+                </div>
+                <div class="toolbar__right">
+                   <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                </div>
+            </ons-toolbar>
+        </ons-page>
+    </template>
 
-<template id="about.html">
-  <ons-page>
-    <ons-toolbar class="toolbar">
-      <div class="left">
-        <ons-toolbar-button onclick="fn.open()">
-          <ons-icon icon="md-menu"></ons-icon>
-        </ons-toolbar-button>
-      </div>
-      <div class="center">
-        About
-      </div>
-      <div class="toolbar__right">
-           <a href="profil.html"><i id="profilikon" class="fas fa-user-circle fa-2x"></i></a>
-      </div>
-    </ons-toolbar>
-  </ons-page>
-</template>
- 
-<template id="profil.html">
-  <ons-page>
-    <ons-toolbar class="toolbar">
-      <div class="left">
-        <ons-toolbar-button onclick="fn.open()">
-          <ons-icon icon="md-menu"></ons-icon>
-        </ons-toolbar-button>
-      </div>
-      <div class="center">
-        Profil
-      </div>
-      <div class="toolbar__right">
-           <a href="profil.html"><i id="profilikon" class="fas fa-user-circle fa-2x"></i></a>
-      </div>
-    </ons-toolbar>
-  </ons-page>
-</template>
- 
-  <!-- main js file -->
-  <script src="js/main.js"></script>
+    <template id="about.html">
+        <ons-page>
+            <ons-toolbar class="toolbar">
+                <div class="left">
+                    <ons-toolbar-button onclick="fn.open()">
+                        <ons-icon icon="md-menu"></ons-icon>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">
+                    About
+                </div>
+                <div class="toolbar__right">
+                    <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                </div>
+            </ons-toolbar>
+        </ons-page>
+    </template>
+
+    <template id="profil.html">
+        <ons-page>
+            <ons-toolbar class="toolbar">
+                <div class="left">
+                    <ons-toolbar-button onclick="fn.open()">
+                        <ons-icon icon="md-menu"></ons-icon>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">
+                    Profil
+                </div>
+                <div class="toolbar__right">
+                   <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                </div>
+            </ons-toolbar>
+        </ons-page>
+    </template>
+
+    <!-- main js file -->
+    <script src="js/main.js"></script>
 </body>
 </html>
