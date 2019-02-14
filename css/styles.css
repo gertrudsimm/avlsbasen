@@ -1,8 +1,13 @@
 
+/*-----------Menu icon------------*/
+
+#profilikon {
+    padding-right: 10px;
+    padding-top: 5px;
+    color: white;
+    position: right;
 
 
 /*TOOLBAR*/
 #toolbar {
 background-color: rgb(186, 228, 213, 0.5);
-
-}
