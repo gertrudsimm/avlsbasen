@@ -17,17 +17,26 @@
         <ons-splitter-side id="menu" side="left" width="220px" collapse swipeable>
             <ons-page>
                 <ons-list>
-                    <ons-list-item onclick="fn.load('home.html')" tappable>
-                        Home
-                    </ons-list-item>
-                    <ons-list-item onclick="fn.load('settings.html')" tappable>
-                        Settings
-                    </ons-list-item>
-                    <ons-list-item onclick="fn.load('about.html')" tappable>
-                        About
+                    <ons-list-item onclick="fn.load('sg_avlspartner.html')" tappable>
+                        Søg Avlspartner
                     </ons-list-item>
                     <ons-list-item onclick="fn.load('profil.html')" tappable>
                         Profil
+                    </ons-list-item>
+                    <ons-list-item onclick="fn.load('opret_dyr.html')" tappable>
+                        Opret dyr
+                    </ons-list-item>
+                    <ons-list-item onclick="fn.load('indbakke.html')" tappable>
+                        Indbakke
+                    </ons-list-item>
+                    <ons-list-item onclick="fn.load('indstillinger.html')" tappable>
+                        Indstillinger
+                    </ons-list-item>
+                    <ons-list-item onclick="fn.load('omappen.html')" tappable>
+                        Om Appen
+                    </ons-list-item>
+                    <ons-list-item onclick="fn.load('logud.html')" tappable>
+                        Log ud
                     </ons-list-item>
                 </ons-list>
             </ons-page>
@@ -35,7 +44,8 @@
         <ons-splitter-content id="content" page="home.html"></ons-splitter-content>
     </ons-splitter>
 
-    <template id="home.html">
+
+    <template id="sg_avlspartner.html">
         <ons-page>
             <ons-toolbar class="toolbar">
                 <div class="left">
@@ -45,42 +55,6 @@
                 </div>
                 <div class="center">
                     Main
-                </div>
-                <div class="toolbar__right">
-                <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
-                </div>
-            </ons-toolbar>
-        </ons-page>
-    </template>
-
-    <template id="settings.html">
-        <ons-page>
-            <ons-toolbar class="toolbar">
-                <div class="left">
-                    <ons-toolbar-button onclick="fn.open()">
-                        <ons-icon icon="md-menu"></ons-icon>
-                    </ons-toolbar-button>
-                </div>
-                <div class="center">
-                    Settings
-                </div>
-                <div class="toolbar__right">
-                   <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
-                </div>
-            </ons-toolbar>
-        </ons-page>
-    </template>
-
-    <template id="about.html">
-        <ons-page>
-            <ons-toolbar class="toolbar">
-                <div class="left">
-                    <ons-toolbar-button onclick="fn.open()">
-                        <ons-icon icon="md-menu"></ons-icon>
-                    </ons-toolbar-button>
-                </div>
-                <div class="center">
-                    About
                 </div>
                 <div class="toolbar__right">
                     <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
@@ -101,7 +75,97 @@
                     Profil
                 </div>
                 <div class="toolbar__right">
-                   <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                    <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                </div>
+            </ons-toolbar>
+        </ons-page>
+    </template>
+
+    <template id="opret_dyr.html">
+        <ons-page>
+            <ons-toolbar class="toolbar">
+                <div class="left">
+                    <ons-toolbar-button onclick="fn.open()">
+                        <ons-icon icon="md-menu"></ons-icon>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">
+                    Settings
+                </div>
+                <div class="toolbar__right">
+                    <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                </div>
+            </ons-toolbar>
+        </ons-page>
+    </template>
+
+    <template id="indbakke.html">
+        <ons-page>
+            <ons-toolbar class="toolbar">
+                <div class="left">
+                    <ons-toolbar-button onclick="fn.open()">
+                        <ons-icon icon="md-menu"></ons-icon>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">
+                    About
+                </div>
+                <div class="toolbar__right">
+                    <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                </div>
+            </ons-toolbar>
+        </ons-page>
+    </template>
+
+    <template id="indstillinger.html">
+        <ons-page>
+            <ons-toolbar class="toolbar">
+                <div class="left">
+                    <ons-toolbar-button onclick="fn.open()">
+                        <ons-icon icon="md-menu"></ons-icon>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">
+                    About
+                </div>
+                <div class="toolbar__right">
+                    <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                </div>
+            </ons-toolbar>
+        </ons-page>
+    </template>
+
+    <template id="omappen.html">
+        <ons-page>
+            <ons-toolbar class="toolbar">
+                <div class="left">
+                    <ons-toolbar-button onclick="fn.open()">
+                        <ons-icon icon="md-menu"></ons-icon>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">
+                    About
+                </div>
+                <div class="toolbar__right">
+                    <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                </div>
+            </ons-toolbar>
+        </ons-page>
+    </template>
+    
+       <template id="logud.html">
+        <ons-page>
+            <ons-toolbar class="toolbar">
+                <div class="left">
+                    <ons-toolbar-button onclick="fn.open()">
+                        <ons-icon icon="md-menu"></ons-icon>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">
+                    About
+                </div>
+                <div class="toolbar__right">
+                    <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
                 </div>
             </ons-toolbar>
         </ons-page>

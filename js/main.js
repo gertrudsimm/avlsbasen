@@ -15,4 +15,4 @@ window.fn.load = function(page) {
 var content = document.querySelector('ons-splitter-content');
 
 // Switch to the Settings page.
-content.load('settings.html');
+content.load('profil.html');
