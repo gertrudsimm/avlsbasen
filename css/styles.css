@@ -22,3 +22,26 @@
 .toolbar{
 background-color: rgb(186, 228, 213, 0.5) !important;
 }
+
+
+/*---------- shit menu bar slider -------------*/
+.center {
+	color: aqua; 
+	text-decoration-line: underline;
+	text-align: center;
+	height: 70px;
+	
+}
+.page__background {
+	width: 0%;
+	
+}
+
+.page__content {
+	border-radius: 30px;
+
+}
+
+.list-header, .list-item--expandable, .list-item__center, .list-item__right {
+	background-size: 100% 10px;
+}
