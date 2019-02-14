@@ -7,7 +7,7 @@
 
 }
 
-/*-----------Menu icon------------*/
+/*-----------Menu icons------------*/
 
 #profilikon {
     padding-right: 10px;
@@ -15,6 +15,12 @@
     color: white;
     position: right;
   }
+
+#menubars {
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+}
 
 
 /*-----------toolbar------------*/
