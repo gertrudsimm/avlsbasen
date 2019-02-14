@@ -8,7 +8,6 @@
 }
 
 
-
 /*-----------Menu icons------------*/
 
 #profilikon {
@@ -23,7 +22,6 @@
     font-size: 25px;
     padding-top: 10px;
 }
-
 
 /*-----------toolbar------------*/
 
@@ -52,4 +50,12 @@ background-color: rgb(186, 228, 213, 0.5) !important;
 
 .list-header, .list-item--expandable, .list-item__center, .list-item__right {
 	background-size: 100% 10px;
+}
+
+
+/**search bar**/
+
+#searchbar {
+    text-align: center; 
+    margin-top: 10px;
 }
