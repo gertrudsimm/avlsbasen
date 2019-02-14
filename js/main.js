@@ -19,14 +19,3 @@ content.load('profil.html');
 
 
 //listen af hunde 
-
-
-fetch('json/data.json')
-  .then(function(response) {
-    return response.json();
-  })
-  .then(json => {
-    console.log(json);
-    appendPersons(json.dogs);
-  });
-
