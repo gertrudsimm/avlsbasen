@@ -24,9 +24,9 @@ fetch('json/data.json')
     .then(function (response) {
         return response.json();
     })
-    .then(function(myJson) {
-        console.log(myJson);
-        appendAnimals(myJson);
+    .then(function (json) {
+        console.log(json);
+        appendAnimals(json);
     });
 
 function appendAnimals(animals) {
@@ -34,14 +34,13 @@ function appendAnimals(animals) {
     for (let animal of animals) {
         console.log(animals)
         htmlTemplate += `
-    <section>
-      <img src="img/${animal.img}">
-      <h3>${animal.name}</h3>
-      <p>${animal.age}</p>
-    <p>${animal.race}</p>
-    </section>`;
+            <section>
+                <img src="img/${animal.img}">
+                <h3>${animal.name}</h3>
+                <p>${animal.age}</p>
+                <p>${animal.race}</p>
+            </section>`;
     }
-
     document.querySelector("#gridAnimals").innerHTML = htmlTemplate;
 }
 
