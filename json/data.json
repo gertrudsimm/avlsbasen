@@ -9,56 +9,56 @@
         "name": "Max",
         "age": "4 år",
         "race": "Dalmatiner",
-        "image_url": ["http://hundeejere.dk/hunderacer/dalmatiner/dalmatiner-88expo.jpg", "http://ulvelys.dk/wp-content/uploads/2017/02/Dalmatiner-kennel-HuginKeiko.jpg", "https://gipotestorage.blob.core.windows.net/dogs/111162/Far%20fabbe.jpg"]
+        "img": ""
     },
     {
         "name": "Buster",
         "age": "8 år",
         "race": "Engelsk bulldog",
-        "image_url": ["http://hundeejere.dk/hunderacer/engelsk-bulldog/engelsk-bulldog-434412.jpg", "", ""]
+        "img": ""
     },
     {
         "name": "Mille",
         "age": "6 måneder",
         "race": "King Charles Spaniel",
-        "image_url": ["http://hundeejere.dk/hunderacer/king-charles-spaniel/king-charles-spaniel-34l200.jpg"]
+        "img": ""
     },
     {
         "name": "Balder",
         "age": "2 år",
         "race": "Labrador Retriever",
-        "image_url": ["http://hundeejere.dk/hunderacer/labrador-retriever/labrador-retriever-99rait.jpg"]
+        "img": ""
     },
     {
         "name": "Charlie",
         "age": "6 år",
         "race": "Mops",
-        "image_url": ["http://hundeejere.dk/hunderacer/mops/mops-652005.jpg"]
+        "img": ""
     },
     {
         "name": "Luna",
         "age": "4 år",
         "race": "Pomeranian",
-        "image_url": ["http://hundeejere.dk/hunderacer/dalmatiner/dalmatiner-88expo.jpg"]
+        "img": ""
     }, {
         "name": "Milo",
         "age": "10 år",
         "race": "Rottweiler",
-        "image_url": ["http://hundeejere.dk/hunderacer/rottweiler/rottweiler-59iler.jpg"]
+        "img": ""
     }, {
         "name": "Sofus",
         "age": "7 år",
         "race": "Shih Tzu",
-        "image_url": ["http://hundeejere.dk/hunderacer/shih-tzu/shih-tzu-69u003.jpg"]
+        "img": ""
     }, {
         "name": "Buller",
         "age": "5 år",
         "race": "Siberian Husky",
-        "image_url": ["http://hundeejere.dk/hunderacer/siberian-husky/siberian-husky-69reno.jpg"]
+        "img": ""
     }, {
         "name": "Felix",
         "age": "4 år",
         "race": "Malteser",
-        "image_url": ["http://hundeejere.dk/hunderacer/malteser/malteser-34ese..jpg"]
+        "img": ""
     }
     ]

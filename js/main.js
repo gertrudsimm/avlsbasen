@@ -34,11 +34,14 @@ function appendAnimals(animals) {
       console.log(animals)
       htmlTemplate +=`
     <section>
-      <img src="${getFeaturedImageUrl(teacher)}">
+      <img src="img/${animal.img}">
       <h3>${animal.name}</h3>
-      ${animal.name}
+      ${animal.age}
+    ${animal.race}
     </section>`;}
-  
+    
+    document.querySelector("#gridAnimals").innerHTML = htmlTemplate;
 }
+
 
 //en ny for inde i denne funktion, så der loops igennem billederne 
