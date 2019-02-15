@@ -1,3 +1,22 @@
+/*-----------global------------*/
+
+:root {
+    --main-color: rgb(186, 228, 213); 
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #59e29e; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #59e29e 0%, #39afc0 50%, #78e3d0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #59e29e 0%,#39afc0 50%,#78e3d0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #59e29e 0%,#39afc0 50%,#78e3d0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59e29e', endColorstr='#78e3d0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+
+
 /*---Gertrud arbejder her!!!!!!!!!---*/
 /*-----------baggrund------------*/
 .page,
@@ -58,15 +77,24 @@
 
 /**-------search bar & filter knap-------**/
 
+#searchButtons {
+    display: flex;
+    justify-content: space-between;
+     margin-top: 10px;
+    color: var(--main-color);
+}
+
+
 .search-input {
-    width: 280px;
-    position: inherit;
+    width: 190px;
 }
 
 #filterButton {
     width: 100px;
     height: 27px;
     border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 

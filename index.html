@@ -49,7 +49,7 @@
 
     <!---Isabella arbejder her!!!!!!!!!--->
     <template id="sg_avlspartner.html">
-        <ons-page>
+        <ons-page id="galleriSide">
             <ons-toolbar class="toolbar">
                 <div class="left">
                     <ons-toolbar-button onclick="fn.open()">
@@ -63,8 +63,9 @@
                     <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
                 </div>
             </ons-toolbar>
+              <div id="searchButtons">
                <button id="filterButton">Filters</button>
-                <input type="search" value="" placeholder="Search" class="search-input">
+                <input type="search" value="" placeholder="Search" class="search-input"></div>
                 <section id="gridAnimals"></section>
         </ons-page>
     </template>
