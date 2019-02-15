@@ -43,5 +43,12 @@ function appendAnimals(animals) {
     document.querySelector("#gridAnimals").innerHTML = htmlTemplate;
 }
 
+//en ny for inde i denne funktion, så der loops igennem billederne
 
-//en ny for inde i denne funktion, så der loops igennem billederne 
+
+//knap på søg avlspartner siden!!
+let showToast = function() {
+  ons.notification.toast('Filter muligheder kommer senere!', {
+    timeout: 2000
+  });
+};
