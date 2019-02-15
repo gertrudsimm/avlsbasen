@@ -3,6 +3,7 @@
 :root {
     --main-color: rgb(186, 228, 213); 
     --button-color: rgb(86, 195, 199);
+	background: linear-gradient(45deg,  #59e29e 0%, #39afc0 50%, #78e3d0 100%);
 }
 
 body {
@@ -111,7 +112,6 @@ body {
 #background-color {
 	display: block;
 	position: relative;
-	background: linear-gradient(45deg,  #59e29e 0%, #39afc0 50%, #78e3d0 100%);
 	height: 150px;
 }
 
