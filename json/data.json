@@ -1,64 +1,64 @@
 [
     {
-        "name": "Molly"
-        "age": "1 år"
-        "race": "Cairn Terrier"
+        "name": "Molly",
+        "age": "1 år",
+        "race": "Cairn Terrier",
         "image_url": ["http://hundeejere.dk/hunderacer/cairn-terrier/cairn-terrier-51ten1.jpg"]
     },
     {
-        "name": "Max"
-        "age": "4 år"
-        "race": "Dalmatiner"
+        "name": "Max",
+        "age": "4 år",
+        "race": "Dalmatiner",
         "image_url": ["http://hundeejere.dk/hunderacer/dalmatiner/dalmatiner-88expo.jpg"]
     },
     {
-        "name": "Buster"
-        "age": "8 år"
-        "race": "Engelsk bulldog"
+        "name": "Buster",
+        "age": "8 år",
+        "race": "Engelsk bulldog",
         "image_url": ["http://hundeejere.dk/hunderacer/engelsk-bulldog/engelsk-bulldog-434412.jpg"]
     },
     {
-        "name": "Mille"
-        "age": "6 måneder"
-        "race": "King Charles Spaniel"
+        "name": "Mille",
+        "age": "6 måneder",
+        "race": "King Charles Spaniel",
         "image_url": ["http://hundeejere.dk/hunderacer/king-charles-spaniel/king-charles-spaniel-34l200.jpg"]
     },
     {
-        "name": "Balder"
-        "age": "2 år"
-        "race": "Labrador Retriever"
+        "name": "Balder",
+        "age": "2 år",
+        "race": "Labrador Retriever",
         "image_url": ["http://hundeejere.dk/hunderacer/labrador-retriever/labrador-retriever-99rait.jpg"]
     },
     {
-        "name": "Charlie"
-        "age": "6 år"
-        "race": "Mops"
+        "name": "Charlie",
+        "age": "6 år",
+        "race": "Mops",
         "image_url": ["http://hundeejere.dk/hunderacer/mops/mops-652005.jpg"]
     },
     {
-        "name": "Luna"
-        "age": "4 år"
-        "race": "Pomeranian"
+        "name": "Luna",
+        "age": "4 år",
+        "race": "Pomeranian",
         "image_url": ["http://hundeejere.dk/hunderacer/dalmatiner/dalmatiner-88expo.jpg"]
     }, {
-        "name": "Milo"
-        "age": "10 år"
-        "race": "Rottweiler"
+        "name": "Milo",
+        "age": "10 år",
+        "race": "Rottweiler",
         "image_url": ["http://hundeejere.dk/hunderacer/rottweiler/rottweiler-59iler.jpg"]
     }, {
-        "name": "Sofus"
-        "age": "7 år"
-        "race": "Shih Tzu"
+        "name": "Sofus",
+        "age": "7 år",
+        "race": "Shih Tzu",
         "image_url": ["http://hundeejere.dk/hunderacer/shih-tzu/shih-tzu-69u003.jpg"]
     }, {
-        "name": "Buller"
-        "age": "5 år"
-        "race": "Siberian Husky"
+        "name": "Buller",
+        "age": "5 år",
+        "race": "Siberian Husky",
         "image_url": ["http://hundeejere.dk/hunderacer/siberian-husky/siberian-husky-69reno.jpg"]
     }, {
-        "name": "Felix"
-        "age": "4 år"
-        "race": "Malteser"
+        "name": "Felix",
+        "age": "4 år",
+        "race": "Malteser",
         "image_url": ["http://hundeejere.dk/hunderacer/malteser/malteser-34ese..jpg"]
     }
     ]

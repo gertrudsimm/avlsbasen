@@ -63,6 +63,8 @@
     position: inherit;
 }
 
-#buttonfilter {
-    
+#filterButton {
+    width: 100px;
+    height: 27px;
+    border-radius: 10px;
 }

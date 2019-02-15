@@ -19,3 +19,20 @@ content.load('profil.html');
 
 
 //listen af hunde 
+fetch('json/data.json')
+  .then(function(response) {
+    return response.json();
+  })
+  .then(json => {
+    console.log(json);
+    appendAnimals(json);
+  });
+
+function appendAnimals(animals) {
+  for (let animal of animals) { // looping trough all dogs
+    console.log(animal);
+  }
+  
+}
+
+//en ny for inde i denne funktion, så der loops igennem billederne 
