@@ -59,14 +59,12 @@ body {
 
 .toolbar {
     background-color: rgb(186, 228, 213, 0.5) !important;
-
-
 }
 
 
 /*---------- shit menu bar slider -------------*/
 .center {
-    color: aqua;
+    color: var(--main-color);
     text-decoration-line: underline;
     text-align: center;
     height: 70px;
