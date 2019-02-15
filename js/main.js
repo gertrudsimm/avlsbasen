@@ -29,9 +29,15 @@ fetch('json/data.json')
   });
 
 function appendAnimals(animals) {
-  for (let animal of animals) { // looping trough all dogs
-    console.log(animal);
-  }
+    let htmlTemplate = "";
+  for (let animal of animals) {
+      console.log(animals)
+      htmlTemplate +=`
+    <section>
+      <img src="${getFeaturedImageUrl(teacher)}">
+      <h3>${animal.name}</h3>
+      ${animal.name}
+    </section>`;}
   
 }
 

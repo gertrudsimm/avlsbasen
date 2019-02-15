@@ -2,6 +2,8 @@
 
 :root {
     --main-color: rgb(186, 228, 213); 
+    --button-color: rgb(86, 195, 199);
+	background: linear-gradient(45deg,  #59e29e 0%, #39afc0 50%, #78e3d0 100%);
 }
 
 body {
@@ -50,6 +52,7 @@ body {
 
 .toolbar {
     background-color: rgb(186, 228, 213, 0.5) !important;
+
 }
 
 
@@ -75,7 +78,7 @@ body {
 .list-item__right {
     background-size: 100% 10px;
 }
-/**-------search bar & filter knap-------**/
+/**---------søge avlspartner siden---------**/
 #sg_avlspartner.html {
 }
 /**-------search bar & filter knap-------**/
@@ -90,23 +93,29 @@ body {
 
 .search-input {
     width: 190px;
+    font-size: 15px;
 }
 
 #filterButton {
+    background-color: var(--button-color);
     width: 100px;
     height: 27px;
     border-radius: 10px;
     margin-right: 10px;
     margin-left: 10px;
+    color: white;
+    font-size: 16px;
 }
 
+#gridAnimals {
+    
+}
 
 /* ------------ profil ----------- */
 #background-color {
 	width: 100%;
 	display: block;
 	position: relative;
-	background-color: rgb(186, 228, 213, 0.5) !important;
 	height: 150px;
 }
 
