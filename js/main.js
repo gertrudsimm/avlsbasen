@@ -36,8 +36,8 @@ function appendAnimals(animals) {
     <section>
       <img src="img/${animal.img}">
       <h3>${animal.name}</h3>
-      ${animal.age}
-    ${animal.race}
+      <p>${animal.age}</p>
+    <p>${animal.race}</p>
     </section>`;}
     
     document.querySelector("#gridAnimals").innerHTML = htmlTemplate;
