@@ -3,62 +3,62 @@
         "name": "Molly",
         "age": "1 år",
         "race": "Cairn Terrier",
-        "image_url": ["http://hundeejere.dk/hunderacer/cairn-terrier/cairn-terrier-51ten1.jpg", "https://www.dkk.dk/uploads/koebhund-bilder/_800x500_crop_center-center_100/1452856524960.jpg", "https://www.ingleside.com/sites/default/files/styles/large/adaptive-image/public/cairn-terrier-dog-breed-info.jpg?itok=Q7IDAuZY"]
+        "img": "cairnterrier.jpeg"
     },
     {
         "name": "Max",
         "age": "4 år",
         "race": "Dalmatiner",
-        "img": ""
+        "img": "dalmatian.jpg"
     },
     {
         "name": "Buster",
         "age": "8 år",
         "race": "Engelsk bulldog",
-        "img": ""
+        "img": "english-bulldog.jpg"
     },
     {
         "name": "Mille",
         "age": "6 måneder",
         "race": "King Charles Spaniel",
-        "img": ""
+        "img": "kingcharlesspaniel.jpg"
     },
     {
         "name": "Balder",
         "age": "2 år",
         "race": "Labrador Retriever",
-        "img": ""
+        "img": "labradorretriever.jpg"
     },
     {
         "name": "Charlie",
         "age": "6 år",
         "race": "Mops",
-        "img": ""
+        "img": "mops.jpg"
     },
     {
         "name": "Luna",
         "age": "4 år",
         "race": "Pomeranian",
-        "img": ""
+        "img": "pomeranian.jpg"
     }, {
         "name": "Milo",
         "age": "10 år",
         "race": "Rottweiler",
-        "img": ""
+        "img": "rottweiler.jpg"
     }, {
         "name": "Sofus",
         "age": "7 år",
         "race": "Shih Tzu",
-        "img": ""
+        "img": "shihtzu.jpg"
     }, {
         "name": "Buller",
         "age": "5 år",
         "race": "Siberian Husky",
-        "img": ""
+        "img": "siberian-husky.jpg"
     }, {
         "name": "Felix",
         "age": "4 år",
         "race": "Malteser",
-        "img": ""
+        "img": "malteser.jpg"
     }
     ]
