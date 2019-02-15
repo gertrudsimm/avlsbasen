@@ -3,19 +3,19 @@
         "name": "Molly",
         "age": "1 år",
         "race": "Cairn Terrier",
-        "image_url": ["http://hundeejere.dk/hunderacer/cairn-terrier/cairn-terrier-51ten1.jpg"]
+        "image_url": ["http://hundeejere.dk/hunderacer/cairn-terrier/cairn-terrier-51ten1.jpg", "https://www.dkk.dk/uploads/koebhund-bilder/_800x500_crop_center-center_100/1452856524960.jpg", "https://www.ingleside.com/sites/default/files/styles/large/adaptive-image/public/cairn-terrier-dog-breed-info.jpg?itok=Q7IDAuZY"]
     },
     {
         "name": "Max",
         "age": "4 år",
         "race": "Dalmatiner",
-        "image_url": ["http://hundeejere.dk/hunderacer/dalmatiner/dalmatiner-88expo.jpg"]
+        "image_url": ["http://hundeejere.dk/hunderacer/dalmatiner/dalmatiner-88expo.jpg", "http://ulvelys.dk/wp-content/uploads/2017/02/Dalmatiner-kennel-HuginKeiko.jpg", "https://gipotestorage.blob.core.windows.net/dogs/111162/Far%20fabbe.jpg"]
     },
     {
         "name": "Buster",
         "age": "8 år",
         "race": "Engelsk bulldog",
-        "image_url": ["http://hundeejere.dk/hunderacer/engelsk-bulldog/engelsk-bulldog-434412.jpg"]
+        "image_url": ["http://hundeejere.dk/hunderacer/engelsk-bulldog/engelsk-bulldog-434412.jpg", "", ""]
     },
     {
         "name": "Mille",
