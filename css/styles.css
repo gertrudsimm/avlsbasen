@@ -93,7 +93,7 @@ a {
 
 /*-----------Menu icons------------*/
 
-#profilikon {
+.profilikon {
     padding-right: 10px;
     padding-top: 5px;
     color: white;
@@ -101,11 +101,10 @@ a {
 
 }
 
-#menubars {
+.menubars {
     color: white;
     font-size: 25px;
     padding-top: 10px;
-
 }
 
 /*-----------toolbar------------*/
