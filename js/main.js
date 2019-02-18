@@ -88,3 +88,13 @@ function btnalert3() {
         animation: false
     })
 }
+
+
+//baggrund color 
+
+document.addEventListener("init",function(event){
+  if(event.target.id == "gradient")
+    {
+      $("#gradient .page__background").css("background-image","linear-gradient(45deg, #59e29e 0%, #39afc0 50%, #78e3d0 100%);");
+    }
+});
