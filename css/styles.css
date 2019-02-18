@@ -121,10 +121,6 @@ a {
 
 /**---------opret dyr siden---------**/
 
-ons-page {
-    background-image: linear-gradient(45deg, #59e29e 0%, #39afc0 50%, #78e3d0 100%);
-}
-
 
 
 /**---------søge avlspartner siden---------**/
@@ -164,7 +160,7 @@ ons-page {
 }
 
 #gridAnimals h3 {
-    position: absolute;
+   position: absolute;
     margin-top: -50px;
     margin-left: 15px;
     background-color: rgb(255, 255, 255, 0.9);
@@ -254,13 +250,11 @@ ons-page {
 
 .icons {
     margin-left: 75px;
-
+   
 }
 
-#icon-comment,
-#icon-heart,
-#icon-star {
-    color: rgb(186, 228, 213, 0.5) !important;
+#icon-comment, #icon-heart, #icon-star {
+	color: rgb(186, 228, 213, 0.5) !important;
 }
 
 .feedbacks {
