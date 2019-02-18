@@ -32,12 +32,12 @@ function appendAnimals(animals) {
     let htmlTemplate = "";
     for (let animal of animals) {
         console.log(animals);
-        htmlTemplate += `<section>
-            <img src="img/${animal.img}">
-            <h3>${animal.name}</h3>
+        htmlTemplate += `
+            <div class="imgContainer"><img src="img/${animal.img}"></div>
+            <div class="imgContainer"><h3>${animal.name}</h3>
             <p>${animal.age}</p>
-            <p>${animal.race}</p>
-        </section>`;
+            <p>${animal.race}</p></div>
+       `;
     }
     let avlspertnerContent = document.getElementById('sg_avlspartner.html').content;
     avlspertnerContent.querySelector('#gridAnimals').innerHTML = htmlTemplate; 

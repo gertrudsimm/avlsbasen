@@ -86,19 +86,24 @@ body {
 }
 
 /**---------søge avlspartner siden---------**/
-#sg_avlspartner.html {
-
-}
+#sg_avlspartner.html {}
 
 #gridAnimals {
     display: flex;
     flex-flow: wrap;
+    margin-top: 20px;
 }
 
-#gridAnimals img {
-    max-width: 200px;
-    max-height: 200px;
-    
+.imgContainer {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    align-content: space-between;
+}
+
+.imgContainer img {
+    height: 110%;
+    transform: translate(-10%, -10%);
 }
 
 
