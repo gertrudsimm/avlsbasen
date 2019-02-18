@@ -69,7 +69,6 @@ body {
     text-align: center;
     height: 70px;
 
-
 }
 
 .page__background {
@@ -88,6 +87,14 @@ body {
 
 /**---------søge avlspartner siden---------**/
 #sg_avlspartner.html {}
+
+#gridAnimals {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+}
+
 
 /**-------search bar & filter knap-------**/
 
@@ -147,11 +154,11 @@ body {
 
 #persona-p {
 
-	text-align: center;
-	padding: 0 50px;
-	font-size: 12px;
-	font-weight: 300;
-	line-height: 1.6;
+    text-align: center;
+    padding: 0 50px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.6;
 
     padding: 0 50px;
     font-size: 12px;
@@ -179,25 +186,20 @@ body {
 
 
 #oversigt {
-	font-size: 20px;
-	margin-left: 20px;
-	color: #58c4c8;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #58c4c8;
 }
 
 .opslag {
-	width: 180px;
-	height: 150px;
-	margin: 0 12px;
-	border-radius: 20px;
+    width: 180px;
+    height: 150px;
+    margin: 0 12px;
+    border-radius: 20px;
 }
 
 .description {
-	margin: -1px 20px;
-	color: #58c4c8;
-	font-size: 14px;
+    margin: -1px 20px;
+    color: #58c4c8;
+    font-size: 14px;
 }
-
-
-
-
-
