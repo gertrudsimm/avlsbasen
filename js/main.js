@@ -52,3 +52,36 @@ let showToast = function () {
         timeout: 2000
     });
 };
+
+// alert buttons
+function btnalert1(){
+	Swal.fire({
+  title: 'Fedt!',
+  text: 'Du gav brugeren et like',
+  imageUrl: 'https://unsplash.it/400/200',
+  imageWidth: 400,
+  imageHeight: 200,
+  animation: false
+})
+}
+function btnalert2(){
+	Swal.fire({
+  title: 'Fedt!',
+  text: 'Du gav brugeren et like',
+  imageUrl: 'https://unsplash.it/400/200',
+  imageWidth: 400,
+  imageHeight: 200,
+  animation: false
+})
+}
+function btnalert3(){
+	Swal.fire({
+  title: 'Fedt!',
+  text: 'Du gav brugeren et like',
+  imageUrl: 'https://unsplash.it/400/200',
+  imageWidth: 400,
+  imageHeight: 200,
+  animation: false
+})
+}
+
