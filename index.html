@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,11 +64,11 @@
                     <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
                 </div>
             </ons-toolbar>
-              <div id="searchButtons">
-               <ons-button id="filterButton" onclick="showToast()">Filter</ons-button>
-               <i id="barSearch" class="fas fa-search fa-2x"></i>
-                </div>
-                <section id="gridAnimals"></section>
+            <div id="searchButtons">
+                <ons-button id="filterButton" onclick="showToast()">Filter</ons-button>
+                <i id="barSearch" class="fas fa-search fa-2x"></i>
+            </div>
+            <section id="gridAnimals"></section>
         </ons-page>
     </template>
     <!---til her!!!!!!!!!--->
@@ -88,201 +89,200 @@
                     <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
                 </div>
             </ons-toolbar>
-			<img id="background-color" src="img/profil-cover.png" alt="profil cover image gradient">
+            <img id="background-color" src="img/profil-cover.png" alt="profil cover image gradient">
 
-			<img class="profil-image "src="img/persona-profil.png" alt="persona profil billede">
+            <img class="profil-image " src="img/persona-profil.png" alt="persona profil billede">
 
-			<h1 id="persona-name">Pernille Pedersen</h1>
-			<p id="persona-p">Hej jeg hedder Pernille og er 24 år gammel og har professionelt arvlet hunde og katte i over 3 år. <br> Har du spørgsmål så kontakt mig gennem tlf: 99 88 77 66 eller skriv en mail til pernille-dk@hotmail.com.  </p>
-
-
-<div class="flex-container">
+            <h1 id="persona-name">Pernille Pedersen</h1>
+            <p id="persona-p">Hej jeg hedder Pernille og er 24 år gammel og har professionelt arvlet hunde og katte i over 3 år. <br> Har du spørgsmål så kontakt mig gennem tlf: 99 88 77 66 eller skriv en mail til pernille-dk@hotmail.com. </p>
 
 
-	<div class="icons">
-		<a href="#" onclick="btnalert1();">
-		<i id="icon-comment" class="fas fa-comment fa-3x"></i>
-		</a>
-
-		<p class="feedbacks">5</p>
-	</div>
+            <div class="flex-container">
 
 
-	<div class="icons">
+                <div class="icons">
+                    <a href="#" onclick="btnalert1();">
+                        <i id="icon-comment" class="fas fa-comment fa-3x"></i>
+                    </a>
 
-		<a href="#" onclick="btnalert2();">
-		<i id="icon-heart" class="fas fa-heart fa-3x"></i>
-		</a>
-		<p class="feedbacks">5</p>
-	</div>
+                    <p class="feedbacks">5</p>
+                </div>
 
-	<div class="icons">
-		<a href="#" onclick="btnalert3();">
-		<i id="icon-star" class="fas fa-star fa-3x"></i>
-		</a>
-		<p class="feedbacks">5</p>
-	</div>
 
-	</div>
+                <div class="icons">
 
-<h2 id="oversigt">Oversigt</h2>
+                    <a href="#" onclick="btnalert2();">
+                        <i id="icon-heart" class="fas fa-heart fa-3x"></i>
+                    </a>
+                    <p class="feedbacks">5</p>
+                </div>
 
-			<div class="flex-container">
+                <div class="icons">
+                    <a href="#" onclick="btnalert3();">
+                        <i id="icon-star" class="fas fa-star fa-3x"></i>
+                    </a>
+                    <p class="feedbacks">5</p>
+                </div>
 
-				<div>
-				<img class="opslag" src="img/dog.png" alt="hund">
-				<p class="description">Lucky&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16 mdr.</p>
-				</div>
+            </div>
 
-				<div>
-			<img class="opslag" src="img/add-new-post.png" alt="add a new post"><p class="description">Tilføj avlsdyr</p>
-			</div>
-			</div>
+            <h2 id="oversigt">Oversigt</h2>
+
+            <div class="flex-container">
+
+                <div>
+                    <img class="opslag" src="img/dog.png" alt="hund">
+                    <p class="description">Lucky&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16 mdr.</p>
+                </div>
+
+                <div>
+                    <img class="opslag" src="img/add-new-post.png" alt="add a new post">
+                    <p class="description">Tilføj avlsdyr</p>
+                </div>
+            </div>
 
         </ons-page>
     </template>
     <!---til her!!!!!!!!!--->
 
 
-    <template id="opret_dyr.html">
-        <ons-page id="gradient">
+            <template id="opret_dyr.html" class="page">
+                <ons-page>
 
-    <template id="opret_dyr.html" class="page">
-        <ons-page>
+                    <ons-toolbar class="toolbar">
+                        <div class="left">
+                            <ons-toolbar-button onclick="fn.open()">
+                                <i id="menubars" class="fas fa-bars"></i>
+                            </ons-toolbar-button>
+                        </div>
+                        <div class="center">
+                            <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
+                        </div>
+                        <div class="toolbar__right">
+                            <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                        </div>
+                    </ons-toolbar>
 
-            <ons-toolbar class="toolbar">
-                <div class="left">
-                    <ons-toolbar-button onclick="fn.open()">
-                        <i id="menubars" class="fas fa-bars"></i>
-                    </ons-toolbar-button>
-                </div>
-                <div class="center">
-                    <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
-                </div>
-                <div class="toolbar__right">
-                    <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
-                </div>
-            </ons-toolbar>
-           
-            <h2>Opret dit kæledyr</h2>
-            <h3>Vælg nedenfor</h3>
-            
-            
-        </ons-page>
-    </template>
-
-    <template id="indbakke.html" class="page">
-        <ons-page>
-            <ons-toolbar class="toolbar">
-                <div class="left">
-                    <ons-toolbar-button onclick="fn.open()">
-                        <i id="menubars" class="fas fa-bars"></i>
-                    </ons-toolbar-button>
-                </div>
-                <div class="center">
-                    <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
-                </div>
-                <div class="toolbar__right">
-                    <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
-                </div>
-            </ons-toolbar>
-        </ons-page>
-    </template>
-
-    <template id="indstillinger.html" class="page">
-        <ons-page>
-            <ons-toolbar class="toolbar">
-                <div class="left">
-                    <ons-toolbar-button onclick="fn.open()">
-                        <i id="menubars" class="fas fa-bars"></i>
-                    </ons-toolbar-button>
-                </div>
-                <div class="center">
-                    <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
-                </div>
-                <div class="toolbar__right">
-                    <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
-                </div>
-            </ons-toolbar>
-        </ons-page>
-    </template>
-
-    <template id="omappen.html" class="page">
-        <ons-page>
-            <ons-toolbar class="toolbar">
-                <div class="left">
-                    <ons-toolbar-button onclick="fn.open()">
-                        <i id="menubars" class="fas fa-bars"></i>
-                    </ons-toolbar-button>
-                </div>
-                <div class="center">
-                    <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
-                </div>
-                <div class="toolbar__right">
-                    <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
-                </div>
-            </ons-toolbar>
-        </ons-page>
-    </template>
-
-    <template id="logud.html" class="page">
-        <ons-page>
-
-           
-           <a href="#"><div id="loginbutton">LOG IND
-</div></a>
-
-<a href="#"><div id="signupbutton">OPRET PROFIL
-</div></a>
+                    <h2>Opret dit kæledyr</h2>
+                    <h3>Vælg nedenfor</h3>
 
 
-            <ons-toolbar class="toolbar">
-                <div class="left">
-                    <ons-toolbar-button onclick="fn.open()">
-                        <i id="menubars" class="fas fa-bars"></i>
-                    </ons-toolbar-button>
-                </div>
-                <div class="center">
-                    <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
-                </div>
-                <div class="toolbar__right">
-                    <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
-                </div>
-            </ons-toolbar>
-          
-        </ons-page>
-    </template>
+                </ons-page>
+            </template>
+
+            <template id="indbakke.html" class="page">
+                <ons-page>
+                    <ons-toolbar class="toolbar">
+                        <div class="left">
+                            <ons-toolbar-button onclick="fn.open()">
+                                <i id="menubars" class="fas fa-bars"></i>
+                            </ons-toolbar-button>
+                        </div>
+                        <div class="center">
+                            <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
+                        </div>
+                        <div class="toolbar__right">
+                            <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                        </div>
+                    </ons-toolbar>
+                </ons-page>
+            </template>
+
+            <template id="indstillinger.html" class="page">
+                <ons-page>
+                    <ons-toolbar class="toolbar">
+                        <div class="left">
+                            <ons-toolbar-button onclick="fn.open()">
+                                <i id="menubars" class="fas fa-bars"></i>
+                            </ons-toolbar-button>
+                        </div>
+                        <div class="center">
+                            <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
+                        </div>
+                        <div class="toolbar__right">
+                            <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                        </div>
+                    </ons-toolbar>
+                </ons-page>
+            </template>
+
+            <template id="omappen.html" class="page">
+                <ons-page>
+                    <ons-toolbar class="toolbar">
+                        <div class="left">
+                            <ons-toolbar-button onclick="fn.open()">
+                                <i id="menubars" class="fas fa-bars"></i>
+                            </ons-toolbar-button>
+                        </div>
+                        <div class="center">
+                            <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
+                        </div>
+                        <div class="toolbar__right">
+                            <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                        </div>
+                    </ons-toolbar>
+                </ons-page>
+            </template>
+
+            <template id="logud.html" class="page">
+                <ons-page>
 
 
+                    <a href="#">
+                        <div id="loginbutton">LOG IND
+                        </div>
+                    </a>
 
-	<!------------- DYR PROFIL --------------------->
-    <!---alan arbejder her!!!!!!!!!--->
-    <template id="dyrprofil.html" class="page">
-        <ons-page>
-            <ons-toolbar class="toolbar">
-                <div class="left">
-                    <ons-toolbar-button onclick="fn.open()">
-                        <i id="menubars" class="fas fa-bars"></i>
-                    </ons-toolbar-button>
-                </div>
-                <div class="center">
-                    <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
-                </div>
-                <div class="toolbar__right">
-                    <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
-                </div>
-            </ons-toolbar>
-			<img id="background-color" src="img/profil-cover.png" alt="profil cover image gradient">
-
-			<img src="img/cairnterrier.jpeg" alt="">
+                    <a href="#">
+                        <div id="signupbutton">OPRET PROFIL
+                        </div>
+                    </a>
 
 
-        </ons-page>
-    </template>
-    <!---til her!!!!!!!!!--->
+                    <ons-toolbar class="toolbar">
+                        <div class="left">
+                            <ons-toolbar-button onclick="fn.open()">
+                                <i id="menubars" class="fas fa-bars"></i>
+                            </ons-toolbar-button>
+                        </div>
+                        <div class="center">
+                            <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
+                        </div>
+                        <div class="toolbar__right">
+                            <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                        </div>
+                    </ons-toolbar>
+
+                </ons-page>
+            </template>
 
 
 
+            <!------------- DYR PROFIL --------------------->
+            <!---alan arbejder her!!!!!!!!!--->
+            <template id="dyrprofil.html" class="page">
+                <ons-page>
+                    <ons-toolbar class="toolbar">
+                        <div class="left">
+                            <ons-toolbar-button onclick="fn.open()">
+                                <i id="menubars" class="fas fa-bars"></i>
+                            </ons-toolbar-button>
+                        </div>
+                        <div class="center">
+                            <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
+                        </div>
+                        <div class="toolbar__right">
+                            <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                        </div>
+                    </ons-toolbar>
+                    <img id="background-color" src="img/profil-cover.png" alt="profil cover image gradient">
+
+                    <img src="img/cairnterrier.jpeg" alt="">
+
+
+                </ons-page>
+            </template>
+            <!---til her!!!!!!!!!--->
 
 
 
@@ -293,8 +293,9 @@
 
 
 
-    <!-- main js file -->
-    <script src="js/main.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+            <!-- main js file -->
+            <script src="js/main.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 </body>
+
 </html>
