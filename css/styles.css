@@ -111,9 +111,20 @@ body {
 }
 
 .textContainer {
-    background-color: lightblue;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    
+}
+
+#gridAnimals h3 {
+   position: absolute;
+    margin-top: -50px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 /**-------search bar & filter knap-------**/
