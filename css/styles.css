@@ -101,6 +101,12 @@ body {
     align-content: space-between;
 }
 
+.textContainer {
+    width: 30%;
+    height: 30%;
+    background-color: blueviolet;
+}
+
 .imgContainer img {
     height: 110%;
     transform: translate(-10%, -10%);

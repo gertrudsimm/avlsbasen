@@ -34,7 +34,7 @@ function appendAnimals(animals) {
         console.log(animals);
         htmlTemplate += `
             <div class="imgContainer"><img src="img/${animal.img}"></div>
-            <div class="imgContainer"><h3>${animal.name}</h3>
+            <div class="textContainer"><h3>${animal.name}</h3>
             <p>${animal.age}</p>
             <p>${animal.race}</p></div>
        `;
