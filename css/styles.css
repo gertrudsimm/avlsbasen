@@ -91,29 +91,30 @@ body {
 #gridAnimals {
     display: flex;
     flex-flow: wrap;
-    margin-top: 20px;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .imgContainer {
     width: 200px;
     height: 200px;
     overflow: hidden;
-    align-content: space-between;
+    border-radius: 5%;
 }
-
-.textContainer {
-    background-color: lightblue;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
-}
-
 
 .imgContainer img {
     height: 110%;
     transform: translate(-10%, -10%);
 }
 
+.textContainer {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+}
 
 /**-------search bar & filter knap-------**/
 
