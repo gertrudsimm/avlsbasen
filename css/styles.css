@@ -220,6 +220,11 @@ a {
 #gridAnimals {}
 
 /* ------------ profil ----------- */
+.white-background {
+    background-color: white;
+}
+
+
 #background-color {
     width: 100%;
     display: block;
@@ -247,13 +252,12 @@ a {
 }
 
 #persona-p {
-
+color: #58c4c8;
     text-align: center;
     padding: 0 50px;
     font-size: 12px;
     font-weight: 300;
     line-height: 1.6;
-
     padding: 0 50px;
     font-size: 12px;
     font-weight: 300;
@@ -275,20 +279,27 @@ a {
 
 #icon-comment, #icon-heart, #icon-star {
 	color: rgb(186, 228, 213, 0.5) !important;
+    
 }
 
 .feedbacks {
-    margin-left: 20px;
     color: #58c4c8;
 }
 
 #oversigt {
+    float: left;
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
     color: #58c4c8;
 }
 
+.posts {
+    display: block;
+    margin: 50px 90px 0 -96px;
+}
+
 .opslag {
+    
     width: 180px;
     height: 150px;
     margin: 0 12px;
