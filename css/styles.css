@@ -259,9 +259,6 @@ color: #58c4c8;
     font-weight: 300;
     line-height: 1.6;
     padding: 0 50px;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 1.6;
 
 }
 
@@ -311,3 +308,73 @@ color: #58c4c8;
     color: #58c4c8;
     font-size: 14px;
 }
+
+/* animals profil */
+
+#background-color {
+    
+}
+
+.icons2 {
+    
+   z-index: 99;
+    margin-top: -20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+#dog-image {
+    display: block;
+    position: absolute;
+    margin: -90px 0 0 40px;
+    border-radius: 25px;
+    width: 80%;
+}
+
+#animals-headline {
+    text-align: center;
+    margin: 160px 0 0 0;
+    font-size: 25px;
+    color: #58c4c8;
+}
+
+#animal-info {
+     float: left;
+    font-size: 20px;
+    margin-left: 30px;
+    color: #58c4c8;
+}
+
+.animals-p {
+    color: #58c4c8;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 12px;
+    font-weight: 300;
+    
+}
+.animals-p2 {
+    margin: 60px 0 0 -20px;
+    color: #58c4c8;
+    text-align: left;
+    padding: 0 50px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.6;
+   
+}
+
+#animals-kontakt {
+     text-align: center;
+    font-size: 15px;
+    color: #58c4c8;
+}
+
