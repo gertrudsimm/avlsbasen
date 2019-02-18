@@ -117,6 +117,11 @@
                     </a>
                     <p class="feedbacks">5</p>
 
+
+        </ons-page>
+    </template>
+
+
     <template id="opret_dyr.html">
         <ons-page>
             <ons-toolbar class="toolbar">
@@ -134,7 +139,7 @@
             </ons-toolbar>
             <h2>Opret dit kæledyr</h2>
             <h3>Vælg nedenfor</h3>
-            
+
         </ons-page>
     </template>
 
@@ -174,46 +179,7 @@
         </ons-page>
     </template>
 
-    <template id="omappen.html">
-        <ons-page>
-            <ons-toolbar class="toolbar">
-                <div class="left">
-                    <ons-toolbar-button onclick="fn.open()">
-                        <i id="menubars" class="fas fa-bars"></i>
-                    </ons-toolbar-button>
-
-                </div>
-
-                <div class="icons">
-                    <a href="#" onclick="btnalert3();">
-                        <i id="icon-star" class="fas fa-star fa-3x"></i>
-                    </a>
-                    <p class="feedbacks">5</p>
-                </div>
-
-    <template id="logud.html">
-        <ons-page>
-
-            </div>
-
-            <h2 id="oversigt">Oversigt</h2>
-
-            <div class="flex-container">
-
-                <div>
-                    <img class="opslag" src="img/dog.png" alt="hund">
-                    <p class="description">Lucky&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16 mdr.</p>
-                </div>
-
-
-                <div>
-                    <img class="opslag" src="img/add-new-post.png" alt="add a new post">
-                    <p class="description">Tilføj avlsdyr</p>
-
-
-	<!------------- DYR PROFIL --------------------->
-    <!---alan arbejder her!!!!!!!!!--->
-    <template id="dyrprofil.html">
+    <template id="omappen.html" class="page">
         <ons-page>
             <ons-toolbar class="toolbar">
                 <div class="left">
@@ -226,165 +192,75 @@
                 </div>
                 <div class="toolbar__right">
                     <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
-
                 </div>
-            </div>
+            </ons-toolbar>
+        </ons-page>
+    </template>
+
+    <template id="logud.html" class="page">
+        <ons-page>
+
+
+            <a href="#">
+                <div id="loginbutton">LOG IND
+                </div>
+            </a>
+
+            <a href="#">
+                <div id="signupbutton">OPRET PROFIL
+                </div>
+            </a>
+
+
+            <ons-toolbar class="toolbar">
+                <div class="left">
+                    <ons-toolbar-button onclick="fn.open()">
+                        <i id="menubars" class="fas fa-bars"></i>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">
+                    <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
+                </div>
+                <div class="toolbar__right">
+                    <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                </div>
+            </ons-toolbar>
+
+        </ons-page>
+    </template>
+
+
+
+    <!------------- DYR PROFIL --------------------->
+    <!---alan arbejder her!!!!!!!!!--->
+    <template id="dyrprofil.html" class="page">
+        <ons-page>
+            <ons-toolbar class="toolbar">
+                <div class="left">
+                    <ons-toolbar-button onclick="fn.open()">
+                        <i id="menubars" class="fas fa-bars"></i>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">
+                    <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
+                </div>
+                <div class="toolbar__right">
+                    <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
+                </div>
+            </ons-toolbar>
+            <img id="background-color" src="img/profil-cover.png" alt="profil cover image gradient">
+
+            <img src="img/cairnterrier.jpeg" alt="">
+
 
         </ons-page>
     </template>
     <!---til her!!!!!!!!!--->
 
 
-            <template id="opret_dyr.html" class="page">
-                <ons-page>
-
-                    <ons-toolbar class="toolbar">
-                        <div class="left">
-                            <ons-toolbar-button onclick="fn.open()">
-                                <i id="menubars" class="fas fa-bars"></i>
-                            </ons-toolbar-button>
-                        </div>
-                        <div class="center">
-                            <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
-                        </div>
-                        <div class="toolbar__right">
-                            <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
-                        </div>
-                    </ons-toolbar>
-
-                    <h2>Opret dit kæledyr</h2>
-                    <h3>Vælg nedenfor</h3>
-
-
-                </ons-page>
-            </template>
-
-            <template id="indbakke.html" class="page">
-                <ons-page>
-                    <ons-toolbar class="toolbar">
-                        <div class="left">
-                            <ons-toolbar-button onclick="fn.open()">
-                                <i id="menubars" class="fas fa-bars"></i>
-                            </ons-toolbar-button>
-                        </div>
-                        <div class="center">
-                            <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
-                        </div>
-                        <div class="toolbar__right">
-                            <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
-                        </div>
-                    </ons-toolbar>
-                </ons-page>
-            </template>
-
-            <template id="indstillinger.html" class="page">
-                <ons-page>
-                    <ons-toolbar class="toolbar">
-                        <div class="left">
-                            <ons-toolbar-button onclick="fn.open()">
-                                <i id="menubars" class="fas fa-bars"></i>
-                            </ons-toolbar-button>
-                        </div>
-                        <div class="center">
-                            <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
-                        </div>
-                        <div class="toolbar__right">
-                            <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
-                        </div>
-                    </ons-toolbar>
-                </ons-page>
-            </template>
-
-            <template id="omappen.html" class="page">
-                <ons-page>
-                    <ons-toolbar class="toolbar">
-                        <div class="left">
-                            <ons-toolbar-button onclick="fn.open()">
-                                <i id="menubars" class="fas fa-bars"></i>
-                            </ons-toolbar-button>
-                        </div>
-                        <div class="center">
-                            <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
-                        </div>
-                        <div class="toolbar__right">
-                            <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
-                        </div>
-                    </ons-toolbar>
-                </ons-page>
-            </template>
-
-            <template id="logud.html" class="page">
-                <ons-page>
-
-
-                    <a href="#">
-                        <div id="loginbutton">LOG IND
-                        </div>
-                    </a>
-
-                    <a href="#">
-                        <div id="signupbutton">OPRET PROFIL
-                        </div>
-                    </a>
-
-
-                    <ons-toolbar class="toolbar">
-                        <div class="left">
-                            <ons-toolbar-button onclick="fn.open()">
-                                <i id="menubars" class="fas fa-bars"></i>
-                            </ons-toolbar-button>
-                        </div>
-                        <div class="center">
-                            <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
-                        </div>
-                        <div class="toolbar__right">
-                            <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
-                        </div>
-                    </ons-toolbar>
-
-                </ons-page>
-            </template>
-
-
-
-            <!------------- DYR PROFIL --------------------->
-            <!---alan arbejder her!!!!!!!!!--->
-            <template id="dyrprofil.html" class="page">
-                <ons-page>
-                    <ons-toolbar class="toolbar">
-                        <div class="left">
-                            <ons-toolbar-button onclick="fn.open()">
-                                <i id="menubars" class="fas fa-bars"></i>
-                            </ons-toolbar-button>
-                        </div>
-                        <div class="center">
-                            <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
-                        </div>
-                        <div class="toolbar__right">
-                            <i id="profilikon" class="fas fa-user-circle fa-2x"></i>
-                        </div>
-                    </ons-toolbar>
-                    <img id="background-color" src="img/profil-cover.png" alt="profil cover image gradient">
-
-                    <img src="img/cairnterrier.jpeg" alt="">
-
-
-                </ons-page>
-            </template>
-            <!---til her!!!!!!!!!--->
-
-
-
-
-
-
-
-
-
-
-            <!-- main js file -->
-            <script src="js/main.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <!-- main js file -->
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 </body>
 
 </html>
