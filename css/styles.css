@@ -102,10 +102,12 @@ body {
 }
 
 .textContainer {
-    width: 30%;
-    height: 30%;
-    background-color: blueviolet;
+    background-color: lightblue;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
 }
+
 
 .imgContainer img {
     height: 110%;
