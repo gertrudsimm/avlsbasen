@@ -161,7 +161,7 @@ a {
 }
 
 #gridAnimals h3 {
-    position: absolute;
+   position: absolute;
     margin-top: -50px;
     margin-left: 15px;
     background-color: rgb(255, 255, 255, 0.9);
@@ -251,13 +251,11 @@ a {
 
 .icons {
     margin-left: 75px;
-
+   
 }
 
-#icon-comment,
-#icon-heart,
-#icon-star {
-    color: rgb(186, 228, 213, 0.5) !important;
+#icon-comment, #icon-heart, #icon-star {
+	color: rgb(186, 228, 213, 0.5) !important;
 }
 
 .feedbacks {
