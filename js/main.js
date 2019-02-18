@@ -20,24 +20,27 @@ content.load('profil.html');
 //listen af hunde 
 
 fetch('json/data.json')
-    .then(function(response) {
+    .then(function (response) {
         return response.json();
     })
-    .then(function(json) {
+    .then(function (json) {
         console.log(json);
         appendAnimals(json);
     });
 
 function appendAnimals(animals) {
+    let htmlTemplate = "";
     for (let animal of animals) {
         console.log(animals);
-    document.getElementById('gridAnimals').innerHTML += `<section>
+        htmlTemplate += `<section>
             <img src="img/${animal.img}">
             <h3>${animal.name}</h3>
             <p>${animal.age}</p>
             <p>${animal.race}</p>
         </section>`;
     }
+    let avlspertnerContent = document.getElementById('sg_avlspartner.html').content;
+    avlspertnerContent.querySelector('#gridAnimals').innerHTML = htmlTemplate; 
 }
 
 //en ny for inde i denne funktion, så der loops igennem billederne
