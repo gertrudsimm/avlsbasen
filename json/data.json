@@ -20,13 +20,13 @@
     {
         "name": "Mille",
         "age": "6 år",
-        "race": "King Charles Spaniel",
+        "race": "King C. Spaniel",
         "img": "kingcharlesspaniel.jpg"
     },
     {
         "name": "Balder",
         "age": "2 år",
-        "race": "Labrador Retriever",
+        "race": "Labrador",
         "img": "labradorretriever.jpg"
     },
     {

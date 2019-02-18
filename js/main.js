@@ -35,8 +35,9 @@ function appendAnimals(animals) {
         htmlTemplate += `<div>
             <div class="imgContainer"><span onclick="fn.load('dyrprofil.html')" tappable><img src="img/${animal.img}"></span></div>
             <h3>${animal.name}</h3>
-            <div class="textContainer"><p>${animal.age}</p> 
-            <p>${animal.race}</p></div>
+            <div class="textContainer"> 
+            <p>${animal.race}</p>
+            <p>${animal.age}</p></div>
             </div>`;
     }
 
