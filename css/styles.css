@@ -94,7 +94,7 @@ a {
 }
 
 
-/*---------- shit menu bar slider -------------*/
+/*---------- menu bar slider -------------*/
 .center {
     color: var(--main-color);
     text-decoration-line: underline;
@@ -116,6 +116,10 @@ a {
 .list-item__right {
     background-size: 100% 10px;
 }
+
+/**---------opret dyr siden---------**/
+
+
 
 /**---------søge avlspartner siden---------**/
 #sg_avlspartner.html {}
