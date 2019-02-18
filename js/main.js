@@ -33,7 +33,7 @@ function appendAnimals(animals) {
     for (let animal of animals) {
         console.log(animals);
         htmlTemplate += `<div>
-            <div class="imgContainer"><a href="dyrprofil.html"><img src="img/${animal.img}"></a></div>
+            <div class="imgContainer"><span onclick="fn.load('dyrprofil.html')" tappable><img src="img/${animal.img}"></span></div>
             <h3>${animal.name}</h3>
             <div class="textContainer"><p>${animal.age}</p> 
             <p>${animal.race}</p></div>

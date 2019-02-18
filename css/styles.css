@@ -115,13 +115,13 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 10px;
-    
+    margin-right: 10px;
 }
 
 #gridAnimals h3 {
    position: absolute;
     margin-top: -50px;
-    margin-left: 10px;
+    margin-left: 15px;
     background-color: rgb(255, 255, 255, 0.8);
     padding: 10px;
     border-radius: 10px;
