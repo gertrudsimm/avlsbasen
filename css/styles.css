@@ -10,28 +10,43 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
 	background: linear-gradient(45deg, #59e29e 0%, #39afc0 50%, #78e3d0 100%);
-	
+	font-family: 'Hero';
+}
 
-
+p {
+	color: white;
 }
 
 
+section {
+	background-image: url(/img/pote.png);
+	height: 190vw;
+	overflow-y: hidden;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.logofront {
+	height: 80px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
 #loginbutton {
-  box-sizing: border-box;
-  text-align: center;
+	box-sizing: border-box;
 	width: 300px;
 	height: 45px;
 	border: 3px solid white;
-  color: white;
-  line-height: 40px;
-  border-radius: 25px;
-  margin-bottom: 20px;
+	color: white;
+	line-height: 40px;
+	border-radius: 25px;
+		margin: 140px 50px 20px 50px;
 
-  
-}
+  }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
   
 }
 
@@ -44,6 +59,8 @@ a {
   color: #58C4C8;
   border-radius: 25px;
     line-height: 45px;
+		margin: 0px 50px 30px 50px;
+
 
 	
 }
