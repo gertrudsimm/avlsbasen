@@ -88,4 +88,3 @@ function btnalert3() {
         animation: false
     })
 }
-¢
