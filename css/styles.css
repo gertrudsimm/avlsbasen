@@ -95,10 +95,10 @@ a {
 /*-----------Menu icons------------*/
 
 .profilikon {
-    padding-right: 10px;
-    padding-top: 5px;
+    padding: 5px 10px 0px 0px;
     color: white;
     position: right;
+	display: block
 
 }
 
@@ -284,7 +284,8 @@ a {
     width: 150px;
     margin: -90px 0 0 130px;
     border: 5px solid white;
-    border-radius: 600px;
+    border-radius: 100px;
+	z-index: 1;
 	
 
 
@@ -299,13 +300,11 @@ a {
 }
 
 #persona-p {
-color: #58c4c8;
+color: dimgray;
     text-align: center;
-    padding: 0 50px;
-    font-size: 12px;
-    font-weight: 300;
+    padding: 0px 30px;
+    font-size: 14px;
     line-height: 1.6;
-    padding: 0 50px;
 
 }
 
@@ -322,7 +321,7 @@ color: #58c4c8;
 }
 
 #icon-comment, #icon-heart, #icon-star {
-	background: linear-gradient(45deg, #39afc0 0%, #59e29e 100%);
+	background: linear-gradient(45deg, #39afc0 0%, #59e29e 65%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 
