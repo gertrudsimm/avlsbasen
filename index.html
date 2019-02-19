@@ -162,7 +162,7 @@
 
 
     <template id="opret_dyr.html">
-        <ons-page>
+        <ons-page id="opret">
             <ons-toolbar class="toolbar">
                 <div class="left">
                     <ons-toolbar-button class="menubars" onclick="fn.open()">
@@ -180,10 +180,18 @@
             <h3>Vælg nedenfor</h3>
 
             <div id="choose-wrap">
-            <img src="img/hund.png" alt="Hund" class="choose-pet">
-            <img src="img/kat.png" alt="Kat" class="choose-pet">
-            <img src="img/hest.png" alt="Hest" class="choose-pet">
-            </div>
+            <div class="choose-pet">
+            <img src="img/hund.png" alt="Vælg hund">
+            <p>Hund</p>
+          </div>
+          <div class="choose-pet">
+          <img src="img/kat.png" alt="Vælg kat">
+          <p>Kat</p>
+        </div>
+        <div class="choose-pet">
+        <img src="img/hest.png" alt="Vælg hest">
+        <p>Hest</p>
+      </div>
 
         </ons-page>
     </template>
