@@ -3,7 +3,6 @@
 :root {
     --main-color: rgb(186, 228, 213);
     --button-color: rgb(86, 195, 199);
-
 }
 
 body {
@@ -155,6 +154,7 @@ a {
     justify-content: space-between;
     margin-left: 25px;
     margin-right: 25px;
+    height: 210%;
 }
 
 .imgContainer {
