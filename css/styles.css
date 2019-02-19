@@ -369,22 +369,24 @@ color: #58c4c8;
 }
 
 #go-back {
+	width: 50px;
 	display: block;
-	position: absolute;
-	margin: -170px 0 0 20px;
+	position: fixed;
+	margin: -120px 0 0 20px;
 	color: white;
 }
 
 #add-to-favorite {
+	width: 50px;
 	display: block;
-	position: absolute;
-	margin: -170px 0 0 190px;
+	position: fixed;
+	margin: -130px 0 0 190px;
 	color: white;
 }
 #show-owner {
 	display: block;
-	position: absolute;
-	margin: -170px 0 0 320px;
+	position: fixed;
+	margin: -120px 0 0 320px;
 	padding: 10px;
 	border: none;
 	border-radius: 25px;
