@@ -63,28 +63,32 @@ function btnalert1() {
         imageUrl: 'https://unsplash.it/400/200',
         imageWidth: 400,
         imageHeight: 200,
-        animation: false
+        animation: false,
+		timer: 1500,
+		showConfirmButton: false,
     })
 }
 
 function btnalert2() {
     Swal.fire({
-        title: 'Fedt!',
         text: 'Du gav brugeren et like',
-        imageUrl: 'https://unsplash.it/400/200',
-        imageWidth: 400,
-        imageHeight: 200,
-        animation: false
+        imageUrl: 'img/like.png',
+        imageWidth: 72,
+        imageHeight: 60,
+        animation: false,
+		timer: 1500,
+		showConfirmButton: false,
     })
 }
 
 function btnalert3() {
     Swal.fire({
-        title: 'Fedt!',
-        text: 'Du gav brugeren et like',
-        imageUrl: 'https://unsplash.it/400/200',
-        imageWidth: 400,
-        imageHeight: 200,
-        animation: false
+        text: 'Brugeren blev tilføjet til dine favoritter',
+        imageUrl: 'img/favorit2.png',
+        imageWidth: 63,
+        imageHeight: 60,
+        animation: false,
+		timer: 1500,
+		showConfirmButton: false,
     })
 }
