@@ -299,12 +299,13 @@ a {
 
 }
 
-#persona-p {
+.persona-p {
 color: dimgray;
     text-align: center;
     padding: 0px 30px;
     font-size: 14px;
     line-height: 1.6;
+	font-weight: 300;
 
 }
 
@@ -370,7 +371,7 @@ color: dimgray;
 }
 
 #go-back {
-	width: 50px;
+	width: 40px;
 	display: block;
 	position: fixed;
 	margin: -120px 0 0 20px;
@@ -378,7 +379,7 @@ color: dimgray;
 }
 
 #add-to-favorite {
-	width: 50px;
+	width: 40px;
 	display: block;
 	position: fixed;
 	margin: -130px 0 0 190px;
@@ -418,22 +419,15 @@ color: dimgray;
     color: #58c4c8;
 }
 
-.animals-p {
-    color: #58c4c8;
-    text-align: center;
-    line-height: 1.6;
-    font-size: 12px;
-    font-weight: 300;
-
-}
-.animals-p2 {
-    margin: 60px 0 0 -20px;
-    color: #58c4c8;
+.persona-p2 {
+    margin: 62px 0 0 -20px;
     text-align: left;
     padding: 0 50px;
-    font-size: 12px;
-    font-weight: 300;
     line-height: 1.6;
+	color: dimgray;
+    font-size: 14px;
+	font-weight: 300;
+    
 
 }
 
