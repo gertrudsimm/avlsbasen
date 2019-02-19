@@ -16,7 +16,7 @@ window.fn.load = function (page) {
 
 var content = document.querySelector('ons-splitter-content');
 
-content.load('profil.html');
+content.load('logud.html');
 //listen af hunde 
 
 fetch('json/data.json')
