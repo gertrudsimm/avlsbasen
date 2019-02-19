@@ -84,8 +84,6 @@ a {
 .page__content,
 .page--material,
 .page--material__content {
-    background-color: crimson !important;
-    background: crimson !important;
 
 }
 
@@ -140,7 +138,46 @@ a {
 
 /**---------opret dyr siden---------**/
 
+#opret h2{
+  text-align: center;
+  color: #fff;
+  margin-top: 20%;
+}
 
+#opret h3{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 15%;
+}
+
+#opret p{
+  text-align: center;
+}
+
+#pet-txt{
+  width: 90%;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5%
+}
+
+#choose-wrap{
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 15%;
+  padding-top:
+}
+
+.choose-pet img{
+  width: auto;
+  height: 90px;
+
+}
 
 
 /**---------søge avlspartner siden---------**/
@@ -377,21 +414,4 @@ color: #58c4c8;
      text-align: center;
     font-size: 15px;
     color: #58c4c8;
-}
-
-/* choose animal */
-
-#choose-wrap{
-  display: flex;
-  flex-flow: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 70%;
-  margin-left: 15%;
-}
-
-.choose-pet{
-  width: 30%;
-  height: auto;
-
 }
