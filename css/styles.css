@@ -21,16 +21,17 @@ p {
 section {
 	background-image: url(/img/pote.png);
 	height: 190vw;
-	overflow-y: hidden;
+	overflow: hidden;
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	text-align: center;
+	position: fixed;
 }
 
 .logofront {
 	height: 80px;
-	margin-top: 100px;
-	margin-bottom: 50px;
+	margin-top: 60px;
+	margin-bottom: 40px;
 }
 
 #loginbutton {
@@ -41,7 +42,7 @@ section {
 	color: white;
 	line-height: 40px;
 	border-radius: 25px;
-		margin: 140px 50px 20px 50px;
+		margin: 100px 40px 20px 40px;
 
   }
 
@@ -59,7 +60,7 @@ a {
   color: #58C4C8;
   border-radius: 25px;
     line-height: 45px;
-		margin: 0px 50px 30px 50px;
+		margin: 0px 40px 30px 40px;
 
 
 	
