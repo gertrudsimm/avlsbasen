@@ -395,15 +395,15 @@ color: #58c4c8;
 
 #dog-image {
     display: block;
-    position: absolute;
-    margin: -110px 0 0 40px;
+    position: fixed;
+    margin: -70px 0 0 40px;
     border-radius: 25px;
     width: 80%;
 }
 
 #animals-headline {
     text-align: center;
-    margin: 160px 0 0 0;
+    margin: 190px 0 0 0;
     font-size: 25px;
     color: #58c4c8;
 }
