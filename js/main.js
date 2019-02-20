@@ -64,8 +64,8 @@ let showToast = function () {
 function btnalert1() {
     Swal.fire({
         title: 'Fedt!',
-        text: 'Du kommenteret på brugerens profil?',
-        imageUrl: 'img/speech-bubble.png',
+        text: 'Du gav brugeren et like',
+        imageUrl: 'https://unsplash.it/400/200',
         imageWidth: 400,
         imageHeight: 200,
         animation: false,
