@@ -6,12 +6,7 @@
 }
 
 body {
-    overflow-y: scroll;
-    overflow-x: hidden;
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of 0ce261a... hmmm
 	background: linear-gradient(45deg, #59e29e 0%, #39afc0 50%, #78e3d0 100%);
 	font-family: 'Hero';
 	width: 100vw;
@@ -92,6 +87,8 @@ a {
 .page__content,
 .page--material,
 .page--material__content {
+    background-color: crimson !important;
+    background: crimson !important;
 
 }
 
@@ -99,14 +96,13 @@ a {
 /*-----------Menu icons------------*/
 
 .profilikon {
-    padding: 5px 10px 0px 0px;
+    padding-right: 10px;
+    padding-top: 5px;
     color: white;
     position: right;
-	display: block
 
 }
 
-	
 .menubars {
     color: white;
     font-size: 25px;
@@ -147,10 +143,11 @@ a {
 
 /**---------opret dyr siden---------**/
 
+
 #opret h2{
   text-align: center;
   color: #fff;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 #opret h3{
@@ -159,17 +156,13 @@ a {
   margin-bottom: 15%;
 }
 
-#opret p{
-  text-align: center;
-}
+
 
 #pet-txt{
-  width: 90%;
   display: flex;
   flex-flow: wrap;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 5%
 }
 
 #choose-wrap{
@@ -179,14 +172,117 @@ a {
   justify-content: space-between;
   width: 70%;
   margin-left: 15%;
-  padding-top:
 }
+
+.choose-pet{
+
+}
+
 
 .choose-pet img{
   width: auto;
   height: 90px;
+}
+
+
+.choose-pet p{
+  text-align: center;
+}
+
+#form{
 
 }
+
+#form p{
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+#option-oth{
+  color: white;
+  text-align: center;
+}
+
+#genderbox {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 360px;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.gender{
+  width: 160px;
+  height: 50px;
+  border: 3px white solid;
+  border-radius: 30px;
+  padding: 0;
+  display: inline-block;
+
+}
+
+.gender p{
+    font-size: 1.5em;
+    margin: 0;
+    margin-top: 10px
+}
+
+.sog{
+  display: block;
+  height: 50px;
+  width: 300px;
+  margin: auto;
+  border-radius: 30px;
+  border: 2px solid white;
+  margin-bottom: 8%;
+  font-size: 1.5em;
+  background-color: white;
+}
+
+.selector{
+  background-color: transparent;
+  border: 3px white solid;
+  border-radius: 30px;
+  width: 160px;
+  height: 50px;
+  color: white;
+}
+
+option{
+  color: black;
+}
+
+#race, #age {
+    font-size: 1.5em;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#bt-div{
+    margin: auto;
+    width: 160px;
+    margin-bottom: 5%;
+      margin-top: 15%;
+}
+
+#next{
+  width: 160px;
+  height: 50px;
+  font-size: 1.5em;
+  border-radius: 30px;
+  border: none;
+  color: rgb(86, 195, 199);
+  background-color: white;
+  opacity: 0.7;
+}
+
+
+
+
+
+
 
 
 /**---------søge avlspartner siden---------**/
@@ -200,7 +296,15 @@ a {
     justify-content: space-between;
     margin-left: 25px;
     margin-right: 25px;
-    height: 210%;
+}
+
+.toolbar{
+  z-index: 1000 !important;
+}
+
+#scroll{
+      overflow-x: hidden;
+      overflow-y: scroll;
 }
 
 .imgContainer {
@@ -269,49 +373,46 @@ a {
 /* ------------ profil ----------- */
 .white-background {
     background-color: white;
-	
 }
+
+
 
 
 .background-cover {
 	display: block;
-	
+	position: absolute;
 	width: 100%;
-    height: 140px;
-	z-index: -99;
+    height: 130px;
 
 }
 
 
 .profil-image {
-	display: block;
-	position: fixed;
+    position: absolute;
     width: 150px;
-	height: 150px;
-    margin: -90px 0 0 130px;
+    margin: 50px 0 0 130px;
     border: 5px solid white;
-    border-radius: 100px;
-	z-index: 1;
-
+    border-radius: 600px;
 
 
 }
 
 #persona-name {
     text-align: center;
+    margin: 220px 0 0 0;
     font-size: 25px;
     color: #58c4c8;
-	margin-top: 80px;
 
 }
 
-.persona-p {
-color: dimgray;
+#persona-p {
+color: #58c4c8;
     text-align: center;
-    padding: 0px 30px;
-    font-size: 14px;
+    padding: 0 50px;
+    font-size: 12px;
+    font-weight: 300;
     line-height: 1.6;
-	font-weight: 300;
+    padding: 0 50px;
 
 }
 
@@ -328,9 +429,7 @@ color: dimgray;
 }
 
 #icon-comment, #icon-heart, #icon-star {
-	background: linear-gradient(45deg, #39afc0 0%, #59e29e 65%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: rgb(186, 228, 213, 0.5) !important;
 
 }
 
@@ -377,24 +476,22 @@ color: dimgray;
 }
 
 #go-back {
-	width: 40px;
 	display: block;
-	position: fixed;
-	margin: -120px 0 0 20px;
+	position: absolute;
+	margin: -170px 0 0 20px;
 	color: white;
 }
 
 #add-to-favorite {
-	width: 40px;
 	display: block;
-	position: fixed;
-	margin: -130px 0 0 190px;
+	position: absolute;
+	margin: -170px 0 0 190px;
 	color: white;
 }
 #show-owner {
 	display: block;
-	position: fixed;
-	margin: -120px 0 0 320px;
+	position: absolute;
+	margin: -170px 0 0 320px;
 	padding: 10px;
 	border: none;
 	border-radius: 25px;
@@ -405,15 +502,15 @@ color: dimgray;
 
 #dog-image {
     display: block;
-    position: fixed;
-    margin: -70px 0 0 40px;
+    position: absolute;
+    margin: -110px 0 0 40px;
     border-radius: 25px;
     width: 80%;
 }
 
 #animals-headline {
     text-align: center;
-    margin: 190px 0 0 0;
+    margin: 160px 0 0 0;
     font-size: 25px;
     color: #58c4c8;
 }
@@ -425,15 +522,22 @@ color: dimgray;
     color: #58c4c8;
 }
 
-.persona-p2 {
-    margin: 62px 0 0 -20px;
+.animals-p {
+    color: #58c4c8;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 12px;
+    font-weight: 300;
+
+}
+.animals-p2 {
+    margin: 60px 0 0 -20px;
+    color: #58c4c8;
     text-align: left;
     padding: 0 50px;
+    font-size: 12px;
+    font-weight: 300;
     line-height: 1.6;
-	color: dimgray;
-    font-size: 14px;
-	font-weight: 300;
-    
 
 }
 
@@ -441,4 +545,21 @@ color: dimgray;
      text-align: center;
     font-size: 15px;
     color: #58c4c8;
+}
+
+/* choose animal */
+
+#choose-wrap{
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.choose-pet{
+  width: 30%;
+  height: auto;
+
 }

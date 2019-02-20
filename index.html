@@ -64,11 +64,13 @@
                     <span class="profilikon" onclick="fn.load('profil.html')"><i class="fas fa-user-circle fa-2x"></i></span>
                 </div>
             </ons-toolbar>
+            <section class="white-background" id="scroll">
             <div id="searchButtons">
                 <ons-button id="filterButton" onclick="showToast()">Filter</ons-button>
                 <i id="barSearch" class="fas fa-search fa-2x"></i>
             </div>
             <div id="gridAnimals"></div>
+            </section>
         </ons-page>
     </template>
     <!---til her!!!!!!!!!--->
@@ -91,17 +93,15 @@
             </ons-toolbar>
 
 
- <div class="background-cover"></div>
+
+            <img class="background-cover" src="img/profil-cover.png" alt="profil cover image gradient">
 
 
-<section class="white-background">
-
-			<div>
-            <img class="profil-image" src="img/pernille.png" alt="persona profil billede">
-		 </div>
+            <img class="profil-image " src="img/persona-profil.png" alt="persona profil billede">
+            <section class="white-background">
 
             <h1 id="persona-name">Pernille Pedersen</h1>
-            <p class="persona-p">Hej jeg hedder Pernille og er 24 år gammel og har professionelt arvlet hunde og katte i over 3 år. <br> Har du spørgsmål så kontakt mig gennem tlf: 99 88 77 66 eller skriv en mail til pernille-dk@hotmail.com. </p>
+            <p id="persona-p">Hej jeg hedder Pernille og er 24 år gammel og har professionelt arvlet hunde og katte i over 3 år. <br> Har du spørgsmål så kontakt mig gennem tlf: 99 88 77 66 eller skriv en mail til pernille-dk@hotmail.com. </p>
 
 
 <div class="flex-container">
@@ -127,7 +127,7 @@
 
     <div class="icons">
 
-        <a href="#" onclick="btnalert3();">
+        <a href="#" onclick="btnalert2();">
                         <i id="icon-star" class="fas fa-star fa-3x"></i>
                     </a>
         <p class="feedbacks">76</p>
@@ -146,7 +146,7 @@
 
     <div class="posts">
 
-        <img onclick="fn.load('opret_dyr.html')" class="opslag" src="img/add-new-post.png" alt="add a new post">
+        <img class="opslag" src="img/add-new-post.png" alt="add a new post">
         <p class="description">Tilføj avlsdyr</p>
 
     </div>
@@ -159,9 +159,10 @@
 </ons-page>
 </template>
 
+<!--OPRET PROFIL-->
 
     <template id="opret_dyr.html">
-        <ons-page id="opret">
+        <ons-page>
             <ons-toolbar class="toolbar">
                 <div class="left">
                     <ons-toolbar-button class="menubars" onclick="fn.open()">
@@ -179,21 +180,65 @@
             <h3>Vælg nedenfor</h3>
 
             <div id="choose-wrap">
-            <div class="choose-pet">
-            <img src="img/hund.png" alt="Vælg hund">
-            <p>Hund</p>
-          </div>
-          <div class="choose-pet">
-          <img src="img/kat.png" alt="Vælg kat">
-          <p>Kat</p>
-        </div>
-        <div class="choose-pet">
-        <img src="img/hest.png" alt="Vælg hest">
-        <p>Hest</p>
+              <div class="choose-pet" id="hund">
+                  <img src="img/hund.png" alt="Vælg hund">
+                  <p><b>Hund</b></p>
+              </div>
 
 
-      </div>
+                <div class="choose-pet" id="kat">
+                    <img src="img/kat.png" alt="Vælg kat">
+                    <p><b>Kat</b></p>
+                </div>
 
+
+                  <div id="horse"  class="choose-pet">
+                      <img src="img/hest.png" alt="Vælg hest">
+                      <p><b>Hest</b></p>
+                  </div>
+
+                </div>
+
+                <div id="option-oth"><p>Andre dyrearter?</p></div>
+
+                <div id="form">
+                  <p>Opret med chipnummer</p>
+                  <input class="sog" id="myTextBox" type="text" value="&nbsp;&nbsp;">
+                  <div id="genderbox">
+                  <div class="gender">
+                    <p>Hanhund</p>
+                  </div>
+                  <div class="gender">
+                    <p>Hunhund</p>
+                  </div>
+                  </div>
+
+                  <div id="genderbox">
+                  <select class="selector" id="race" style="display: block;">
+                    <option value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Race</option>
+                  <option class="select-item" value="Aarhus"> Aarhus </option>
+                  <option class="select-item" value="Copenhagen"> Copenhagen </option>
+                  <option class="select-item" value="Odense"> Odense </option>
+                  <option class="select-item" value="Aalborg"> Aalborg </option>
+                  </select>
+
+                  <select class="selector" id="age" style="display: block;">
+                    <option value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alder</option>
+                  <option class="select-item" value="2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 år </option>
+                  <option class="select-item" value="3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 år </option>
+                  <option class="select-item" value="4"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 år </option>
+                  <option class="select-item" value="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 år </option>
+                  <option class="select-item" value="6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 år </option>
+                  <option class="select-item" value="7"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7 år </option>
+                  <option class="select-item" value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8 år </option>
+                  </select>
+                  </div>
+                  <div id="bt-div">
+                  <button id="next" disabled>Opret profil</button>
+                  <p>Opret senere <i class="fa fa-angle-right"></i></p>
+                  </div>
+
+                </div>
 
         </ons-page>
     </template>
@@ -260,7 +305,7 @@
       <img src="img/hund.png" height="150px" text-align="center" alt="hund">
 
 
-            <a href="#">
+            <a href="">
                 <div onclick="fn.load('opret_dyr.html')" tappable id="loginbutton">LOG IND
                 </div>
             </a>
@@ -301,11 +346,7 @@
             </ons-toolbar>
 
 
-
-            <img class="background-cover" src="img/profil-cover.png" alt="profil cover image gradient">
-
             <img class="background-color" src="img/profil-cover.png" alt="profil cover image gradient">
-
 
 
 
@@ -315,8 +356,8 @@
 
 <div>
 
-	<a href="#" onclick="fn.load('sg_avlspartner.html')" tappable>
-                       <img id="go-back" src="img/back.png" alt="go back button">
+	<a href="#">
+                        <i id="go-back" class="fas fa-long-arrow-alt-left fa-4x"></i>
                     </a>
 </div>
 
@@ -326,7 +367,7 @@
 
 <div>
 	<a href="#">
-                        <img id="add-to-favorite" src="img/favorit.png" alt="add to favorite">
+                        <i id="add-to-favorite" class="fas fa-heart fa-3x"></i>
                     </a>
 </div>
 
@@ -335,7 +376,7 @@
 
 
 <div>
-	<a href="#" onclick="fn.load('ejer-profil.html')"tappble>
+	<a href="#">
                         <button id="show-owner">Vis ejeren</button>
                     </a>
 
@@ -346,18 +387,25 @@
 
 
 
-<div>
+
+
+
+
+
+
+
+
             <img id="dog-image" src="img/dog.png" alt="billede af en hund">
- </div>
+
 
                 <h1 id="animals-headline">Molly</h1>
-                <p class="persona-p">Den mest loyale hund i hele verden</p>
+                <p class="animals-p">Den mest loyale hund i hele verden</p>
 
 
 
                 <h2 id="animal-info">Information</h2>
 
-                <p class="persona-p2">Molly er 2 år gammel og er født i Tyskland, men opvokset i danske jord. Hun er ifølge dyrlægen meget rask og fri for sygdommen. <br> Er molly noget for dig? så kontakt mig gennem appen eller på tlf. 42 58 79 62  </p>
+                <p class="animals-p2">Molly er 2 år gammel og er født i Tyskland, men opvokset i danske jord. Hun er ifølge dyrlægen meget rask og fri for sygdommen. <br> Er molly noget for dig? så kontakt mig gennem appen eller på tlf. 42 58 79 62  </p>
 
                 <div>
                    <i id="icon-comment" class="fas fa-comment fa-3x"></i>
@@ -370,126 +418,6 @@
         </ons-page>
     </template>
     <!---til her!!!!!!!!!--->
-
-	<!--------------- EJERS PROFIL --------------------->
-	<!---alan arbejder her!!!!!!!!!--->
-    <template id="ejer-profil.html">
-        <ons-page>
-            <ons-toolbar class="toolbar">
-                <div class="left">
-                    <ons-toolbar-button class="menubars" onclick="fn.open()">
-                        <i class="fas fa-bars"></i>
-                    </ons-toolbar-button>
-                </div>
-                <div class="center">
-                    <img src="img/avlsbasen-logo.png" height="40px" alt="logo">
-                </div>
-                <div class="toolbar__right">
-                    <span class="profilikon" onclick="fn.load('profil.html')"><i class="fas fa-user-circle fa-2x"></i></span>
-                </div>
-            </ons-toolbar>
-
-
- <div class="background-cover"></div>
-
-
-
-
-<section class="white-background">
-
-
-<div>
-
-	<a href="#" onclick="fn.load('sg_avlspartner.html')" tappable>
-                       <img id="go-back" src="img/back.png" alt="go back button">
-                    </a>
-</div>
-
-
-
-
-
-<div>
-	<a href="#">
-                        <img id="add-to-favorite" src="img/favorit.png" alt="add to favorite">
-                    </a>
-</div>
-
-
-			<div>
-            <img class="profil-image" src="img/persona-profil.png" alt="persona profil billede">
-		 </div>
-
-            <h1 id="persona-name">Jimmy Klessen Hansen</h1>
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <p class="persona-p">Hej jeg hedder Pernille og er 24 år gammel og har professionelt arvlet hunde og katte i over 3 år. <br> Har du spørgsmål så kontakt mig gennem tlf: 99 88 77 66 eller skriv en mail til pernille-dk@hotmail.com. </p>
-=======
-            <p class="persona-p">Jeg hedder Jimmy og er 32 år gammel og har professionelt arvlet hunde i over 3 år. <br> Har du spørgsmål så kontakt mig gennem tlf: 99 88 77 66 eller skriv en mail til kim-dk@hotmail.com. </p>
->>>>>>> parent of 05204cd... onclickssss & alert-buttons DONE
-=======
-            <p class="persona-p">Jeg hedder Jimmy og er 32 år gammel og har professionelt arvlet hunde i over 3 år. <br> Har du spørgsmål så kontakt mig gennem tlf: 99 88 77 66 eller skriv en mail til kim-dk@hotmail.com. </p>
->>>>>>> parent of 05204cd... onclickssss & alert-buttons DONE
-
-
-<div class="flex-container">
-
-    <div class="icons">
-        <a href="#" onclick="btnalert1();">
-                        <i id="icon-comment" class="fas fa-comment fa-3x"></i>
-                    </a>
-
-        <p class="feedbacks">136</p>
-    </div>
-
-
-    <div class="icons">
-
-        <a href="#" onclick="btnalert2();">
-                        <i id="icon-heart" class="fas fa-heart fa-3x"></i>
-                    </a>
-        <p class="feedbacks">250</p>
-    </div>
-
-
-
-    <div class="icons">
-
-        <a href="#" onclick="btnalert3();">
-                        <i id="icon-star" class="fas fa-star fa-3x"></i>
-                    </a>
-        <p class="feedbacks">76</p>
-    </div>
-
-
-</div>
-
-<h2 id="oversigt">Oversigt</h2>
-<div class="flex-container">
-
-    <div class="posts">
-        <img class="opslag" src="img/dog.png" alt="billede af en hund">
-        <p class="description">Lucky</p>
-    </div>
-
-
-
-</div>
-
-
-</section>
-
-</ons-page>
-</template>
-
-
-
-
-
-
-
-
-
 
     <!-- main js file -->
     <script src="js/main.js"></script>
