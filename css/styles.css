@@ -156,17 +156,13 @@ a {
   margin-bottom: 15%;
 }
 
-#opret p{
-  text-align: center;
-}
+
 
 #pet-txt{
-  width: 90%;
   display: flex;
   flex-flow: wrap;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 5%
 }
 
 #choose-wrap{
@@ -176,14 +172,111 @@ a {
   justify-content: space-between;
   width: 70%;
   margin-left: 15%;
-  padding-top:
 }
+
+.choose-pet{
+
+}
+
 
 .choose-pet img{
   width: auto;
   height: 90px;
 
 }
+
+.choose-pet p{
+  text-align: center;
+}
+
+#form{
+
+}
+
+#form p{
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+#genderbox {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 360px;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.gender{
+  width: 160px;
+  height: 50px;
+  border: 3px white solid;
+  border-radius: 30px;
+  padding: 0;
+  display: inline-block;
+
+}
+
+.gender p{
+    font-size: 1.5em;
+    margin: 0;
+    margin-top: 10px
+}
+
+.sog{
+  display: block;
+  height: 50px;
+  width: 300px;
+  margin: auto;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 8%;
+  font-size: 1.5em;
+}
+
+.selector{
+  background-color: transparent;
+  border: 3px white solid;
+  border-radius: 30px;
+  width: 160px;
+  height: 50px;
+  color: white;
+}
+
+option{
+  color: black;
+}
+
+#race, #age {
+    font-size: 1.5em;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#bt-div{
+    margin: auto;
+    width: 160px;
+    margin-bottom: 5%;
+      margin-top: 15%;
+}
+
+#next{
+  width: 160px;
+  height: 50px;
+  font-size: 1.5em;
+  border-radius: 30px;
+  border: none;
+  color: rgb(86, 195, 199);
+  background-color: white;
+  opacity: 0.7;
+
+}
+
+
+
+
+
 
 
 /**---------søge avlspartner siden---------**/
@@ -197,7 +290,15 @@ a {
     justify-content: space-between;
     margin-left: 25px;
     margin-right: 25px;
-    height: 210%;
+}
+
+.toolbar{
+  z-index: 1000 !important;
+}
+
+#scroll{
+      overflow-x: hidden;
+      overflow-y: scroll;
 }
 
 .imgContainer {
@@ -268,6 +369,8 @@ a {
     background-color: white;
 	
 }
+
+
 
 
 .background-cover {

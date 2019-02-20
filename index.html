@@ -163,6 +163,7 @@
 </ons-page>
 </template>
 
+<!--OPRET PROFIL-->
 
     <template id="opret_dyr.html">
         <ons-page id="opret">
@@ -183,6 +184,7 @@
             <h3>Vælg nedenfor</h3>
 
             <div id="choose-wrap">
+<<<<<<< HEAD
             <div class="choose-pet">
             <img src="img/hund.png" alt="Vælg hund">
             <p>Hund</p>
@@ -195,6 +197,68 @@
         <img src="img/hest.png" alt="Vælg hest">
         <p>Hest</p>
 				</div></div>
+=======
+              <div class="choose-pet" id="hund">
+                  <img src="img/hund.png" alt="Vælg hund">
+                  <p><b>Hund</b></p>
+              </div>
+
+
+                <div class="choose-pet" id="kat">
+                    <img src="img/kat.png" alt="Vælg kat">
+                    <p><b>Kat</b></p>
+                </div>
+
+
+                  <div id="horse"  class="choose-pet">
+                      <img src="img/hest.png" alt="Vælg hest">
+                      <p><b>Hest</b></p>
+                  </div>
+
+                </div>
+
+                <div id="option-oth"><p>Andre dyrearter?</p></div>
+
+                <div id="form">
+                  <p>Opret med chipnummer</p>
+                  <input class="sog" id="myTextBox" type="text" value="&nbsp;&nbsp;">
+                  <div id="genderbox">
+                  <div class="gender">
+                    <p>Hanhund</p>
+                  </div>
+                  <div class="gender">
+                    <p>Hunhund</p>
+                  </div>
+                  </div>
+
+                  <div id="genderbox">
+                  <select class="selector" id="race" style="display: block;">
+                    <option value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Race</option>
+                  <option class="select-item" value="Aarhus"> Aarhus </option>
+                  <option class="select-item" value="Copenhagen"> Copenhagen </option>
+                  <option class="select-item" value="Odense"> Odense </option>
+                  <option class="select-item" value="Aalborg"> Aalborg </option>
+                  </select>
+
+                  <select class="selector" id="age" style="display: block;">
+                    <option value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alder</option>
+                  <option class="select-item" value="2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 år </option>
+                  <option class="select-item" value="3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 år </option>
+                  <option class="select-item" value="4"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 år </option>
+                  <option class="select-item" value="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 år </option>
+                  <option class="select-item" value="6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 år </option>
+                  <option class="select-item" value="7"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7 år </option>
+                  <option class="select-item" value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8 år </option>
+                  </select>
+                  </div>
+                  <div id="bt-div">
+                  <button id="next" disabled>Opret profil</button>
+                  <p>Opret senere <i class="fa fa-angle-right"></i></p>
+                  </div>
+
+                </div>
+
+>>>>>>> til-merge
 
         </ons-page>
     </template>
@@ -300,9 +364,15 @@
                     <span class="profilikon" onclick="fn.load('profil.html')"><i class="fas fa-user-circle fa-2x"></i></span>
                 </div>
             </ons-toolbar>
+<<<<<<< HEAD
 			
 			
             <img class="background-cover" src="img/profil-cover.png" alt="profil cover image gradient">
+=======
+
+
+            <img class="background-color" src="img/profil-cover.png" alt="profil cover image gradient">
+>>>>>>> til-merge
 
 
 
